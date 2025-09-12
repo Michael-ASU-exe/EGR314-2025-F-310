@@ -5,16 +5,18 @@ tags:
 - tag2
 ---
 <center>
-<font size= "6">Michael Cockerham Datasheet</font><br>
-as part of<br>
-<font size= "8"> Snuffed</font><br>
-for<br>
-<font size= "5"> Team 310 </font><br>
-
+<font size= "8">Team name</font><br>
+<font size= "6">Team 310</font><br>
+<font size= "4"> Cory Lewis </font><br>
+<font size= "4"> Kaden Johnson </font><br>
+<font size= "4"> Michael Cockerham </font><br>
+<font size= "4"> Zachary Stradling </font><br>
+<font size= "5"> Fall 2025 </font><br>
+<font size= "5"> ASU EGR314 Professor Suo </font><br>
 **Submission: 09, 09, 2025**
 </center>
 
-## Introduction
+# Our Mission Statement
 
 * This needs to be updated so that a reader gets an idea of the purpose of this datasheet.
 
