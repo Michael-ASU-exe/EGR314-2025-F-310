@@ -45,6 +45,7 @@ this is how we do it talk about, when (need 4 hours), who starts, how we keep tr
 | Kaden Johnson     |       |
 | Cory Lewis        |       |
 | Zachary Stradling |       |
+| Rishik Atluri     |       |
 
 ## Team Coordination & Accountability
 
