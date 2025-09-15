@@ -28,9 +28,10 @@ tags:
 ## Team Communication 
 
 | Name              | First | Second | Third |
+|-------------------|-------|--------|-------|
 | Michael Cockerham |       |        |       |
 | Kaden Johnson     |       |        |       |
-| Cory Lewis        |       |        |       |
+| Cory Lewis        | Phone |        |       |
 | Zachary Stradling |Text   |Discord |Email  |
 | Rishik Atluri     |       |        |       |
 
@@ -40,10 +41,12 @@ this is how we do it talk about, when (need 4 hours), who starts, how we keep tr
 
 ## Team Roles
 | Name              | Role  |
+|-------------------|-------|
 | Michael Cockerham |       |
 | Kaden Johnson     |       |
 | Cory Lewis        |       |
 | Zachary Stradling |       |
+| Rishik Atluri     |       |
 
 ## Team Coordination & Accountability
 
