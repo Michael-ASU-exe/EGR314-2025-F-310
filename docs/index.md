@@ -5,7 +5,7 @@ tags:
 - tag2
 ---
 <center>
-<font size= "8">Team name</font><br>
+<font size= "8">Michael's the best</font><br>
 <font size= "6">Team 310</font><br>
 <font size= "4"> Cory Lewis | Kaden Johnson | Michael Cockerham | Zachary Stradling | Rishik Atluri</font><br>
 <font size= "5"> Fall 2025 </font><br>
@@ -31,9 +31,10 @@ tags:
 |-------------------|-------|--------|-------|
 | Michael Cockerham |       |        |       |
 | Kaden Johnson     |       |        |       |
-| Cory Lewis        | Phone      |        |       |
-| Zachary Stradling |       |        |       |
+| Cory Lewis        | Phone |        |       |
+| Zachary Stradling |Text   |Discord |Email  |
 | Rishik Atluri     |       |        |       |
+
 ### Communication Procedures
 
 this is how we do it talk about, when (need 4 hours), who starts, how we keep track, other stuff
