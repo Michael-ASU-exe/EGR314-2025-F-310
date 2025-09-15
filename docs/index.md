@@ -31,9 +31,10 @@ tags:
 |-------------------|-------|--------|-------|
 | Michael Cockerham |       |        |       |
 | Kaden Johnson     |       |        |       |
-| Cory Lewis        | Phone |        |       |
+| Cory Lewis        | Phone |Discord |Email  |
 | Zachary Stradling |Text   |Discord |Email  |
 | Rishik Atluri     |       |        |       |
+
 
 ### Communication Procedures
 
