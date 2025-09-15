@@ -30,7 +30,7 @@ tags:
 | Name              | First | Second | Third |
 | Michael Cockerham |       |        |       |
 | Kaden Johnson     |       |        |       |
-| Cory Lewis        | Phone      |        |       |
+| Cory Lewis        | Phone |Discord |Email  |
 | Zachary Stradling |       |        |       |
 
 ### Communication Procedures
