@@ -7,7 +7,7 @@ tags:
 <center>
 <font size= "8">Michaels the best</font><br>
 <font size= "6">Team 310</font><br>
-<font size= "4"> Cory Lewis | Kaden Johnson | Michael Cockerham | Zachary Stradling</font><br>
+<font size= "4"> Cory Lewis | Kaden Johnson | Michael Cockerham | Zachary Stradling | Rishik Atluri</font><br>
 <font size= "5"> Fall 2025 </font><br>
 <font size= "5"> ASU | EGR314 | Professor Suo </font><br>
 **Submission: 09, 09, 2025**
@@ -32,7 +32,7 @@ tags:
 | Kaden Johnson     |       |        |       |
 | Cory Lewis        |       |        |       |
 | Zachary Stradling |       |        |       |
-
+| Rishik Atluri     |       |        |       |
 ### Communication Procedures
 
 this is how we do it talk about, when (need 4 hours), who starts, how we keep track, other stuff
