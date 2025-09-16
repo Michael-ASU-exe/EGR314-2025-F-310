@@ -90,7 +90,7 @@ We will communicate throughout the week via text or discord and will hold weekly
 ## Conflict Recognition & Resolution
 
 * Recognize and openly acknowledge disagreements when they occur.
-* When our opinions differ from time to time, especially as team members get to know one another and begin working together, we will resort to any data from either side and then utilize a voting system on the subject at hand.
-* Conflicts of interest arise from ill-structured project roles and so we will do our best to stick to those roles. We would like to ideally have each memeber of our team volunteering for their own responsibilites and we will try address who will be covering what parts of the project in our weekly meetings.
+* When our opinions differ from time to time, especially as team members get to know one another and begin working together, we will resort to data from both sides and then utilize a voting system on the subject at hand.
+* Conflicts of interest arise from ill-structured project roles, so we will do our best to stick to those roles. We would ideally like each member of our team to volunteer for their own responsibilities, and we will address who will be covering what parts of the project in our weekly meetings.
 * As a group we will be conscious of whos doing what so that no one person is assigned too much.
-* If any conflicts arise during the semester within the team, we will try to resolve them as team first but will decide to include the instructor if conflict escalates.
+* If any conflicts arise during the semester within the team, we will try to resolve them as team first, but will involve the instructor if conflict escalates.
