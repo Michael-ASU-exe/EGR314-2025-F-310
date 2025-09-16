@@ -26,6 +26,25 @@ Our mission is to design and prototype innovative embedded systems that enhance 
 
 * Early detection & prevention
     * Provide campground employees with real-time alerts of thermal anomalies to address potential fire hazards    before ignition.
+* Human-Centered Design
+    * Embrace the “human element” by ensuring that the system supports staff decision-making rather than replacing it.
+
+* Scalability & Adaptability
+    * Create a modular tower system that can be deployed at multiple campsites, with hardware and software that adapt to different terrains and conditions.
+
+* Technical Innovation
+
+    * Integrate ESP32-based communications, a motorized IR sensor array, and thermal cameras into a robust, 10 ft tower design that is reliable in harsh outdoor environments.
+
+* Stakeholder Impact
+
+    * Deliver value to multiple stakeholders:
+
+        * Campground Staff: actionable data to keep campers safe.
+
+        * Campers/Communities: improved safety and peace of mind.
+
+        * Environmental Agencies: a proactive, low-impact solution for wildfire prevention.
 
 ## Team Communication 
 
