@@ -19,7 +19,7 @@ Our mission is to design and prototype innovative embedded systems that enhance 
 ## Team Charter
 
 * Sell 10 units in our first year.
-    * Focusing in on the Tonto National forest we believe we can convinve ten campgrounds to invest in our product in the first year. 
+    * Focusing in on the Tonto National forest we believe we can convince ten campgrounds to invest in our product in the first year. 
 * Take four months to go from opportunity identification to shipping our first units.
     * One base unit is a 10 ft tower with thermal and IR sensors, a motor for scanning 360°, and an ESP32 + server network.
 * Reliable 360° sensor coverage with minimal false positives.
