@@ -23,7 +23,8 @@ Our mission is to design and prototype innovative embedded systems that enhance 
 * Leverage our company's existing manufacturing capabilities
 
 ## Team Goals
-* win
+ * Early detection & prevention
+   - Provide campground employees with real-time alerts of thermal anomalies to address potential fire hazards before ignition.
 
 ## Team Communication 
 
