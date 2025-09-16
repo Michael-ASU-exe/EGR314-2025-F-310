@@ -65,7 +65,7 @@ Our mission is to design and prototype innovative embedded systems that enhance 
 
 ### Communication Procedures
 
-this is how we do it talk about, when (need 4 hours), who starts, how we keep track, other stuff
+We will communicate throughout the week via text or discord and will hold weekly meetings to update ourselves on where we all are on the parts we are working on. If a question comes up on a specific issue, a phone call could be necessary.
 
 ## Team Roles
 | Name              | Role  |
