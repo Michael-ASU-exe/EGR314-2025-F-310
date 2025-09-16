@@ -58,7 +58,7 @@ tags:
 | Name              | First | Second | Third |
 |-------------------|-------|--------|-------|
 | Michael Cockerham |       |        |       |
-| Kaden Johnson     |       |        |       |
+| Kaden Johnson     |Text   |Discord |Email  |
 | Cory Lewis        |Text   |Discord |Email  |
 | Zachary Stradling |Text   |Discord |Email  |
 | Rishik Atluri     |       |        |       |
