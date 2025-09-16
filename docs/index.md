@@ -24,7 +24,7 @@ tags:
 
 ## Team Goals
 
-* **Early detection & prevention**
+* Early detection & prevention
   * Provide campground employees with real-time alerts of thermal anomalies to address potential fire hazards    before ignition.
 
 ## Team Communication 
