@@ -57,8 +57,8 @@ Our mission is to design and prototype innovative embedded systems that enhance 
 
 | Name              | First | Second | Third |
 |-------------------|-------|--------|-------|
-| Michael Cockerham | Text  |  Disc  | Call  |
-| Kaden Johnson     |       |        |       |
+| Michael Cockerham |       |        |       |
+| Kaden Johnson     |Text   |Discord |Email  |
 | Cory Lewis        |Text   |Discord |Email  |
 | Zachary Stradling |Text   |Discord |Email  |
 | Rishik Atluri     | Discord|Text   |Email  |
