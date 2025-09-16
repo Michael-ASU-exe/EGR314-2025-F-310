@@ -5,7 +5,7 @@ tags:
 - tag2
 ---
 <center>
-<font size= "8">Michael's the best</font><br>
+<font size= "8">Fire Cracker</font><br>
 <font size= "6">Team 310</font><br>
 <font size= "4"> Cory Lewis | Kaden Johnson | Michael Cockerham | Zachary Stradling | Rishik Atluri</font><br>
 <font size= "5"> Fall 2025 </font><br>
@@ -18,27 +18,27 @@ Our mission is to design and prototype innovative embedded systems that enhance 
 
 ## Team Charter
 
-* Sell X units per year.
-* Take Y months to go from opportunity identification to shipping our first units.
+* Sell  units per year.
+* Take 3 months to go from opportunity identification to shipping our first units.
 * Leverage our company's existing manufacturing capabilities
 
 ## Team Goals
-* win
+* To stop a forest fire before it burns 1 acre 
 
 ## Team Communication 
 
-| Name              | First | Second | Third |
-|-------------------|-------|--------|-------|
-| Michael Cockerham | Text  |  Disc  | Call  |
-| Kaden Johnson     |       |        |       |
-| Cory Lewis        | Phone |Discord |Email  |
-| Zachary Stradling |Text   |Discord |Email  |
-| Rishik Atluri     |       |        |       |
+| Name              | First | Second  |  Third  |
+|-------------------|-------|---------|--------|
+| Michael Cockerham | Text  | Disc    |  Call  |
+| Kaden Johnson     |       |         |        |
+| Cory Lewis        | Phone | Discord | Email  |
+| Zachary Stradling | Text  | Discord | Email  |
+| Rishik Atluri     |       |         |        |
 
 
 ### Communication Procedures
 
-this is how we do it talk about, when (need 4 hours), who starts, how we keep track, other stuff
+We will meet before class and go over any updates. If we need to meet at any other time, we will discuss plans at this meeting.
 
 ## Team Roles
 | Name              | Role  |
