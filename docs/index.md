@@ -25,7 +25,7 @@ Our mission is to design and prototype innovative embedded systems that enhance 
 ## Team Goals
 
 * Early detection & prevention
-  * Provide campground employees with real-time alerts of thermal anomalies to address potential fire hazards    before ignition.
+    * Provide campground employees with real-time alerts of thermal anomalies to address potential fire hazards    before ignition.
 
 ## Team Communication 
 
