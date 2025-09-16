@@ -29,7 +29,7 @@ tags:
 
 | Name              | First | Second | Third |
 |-------------------|-------|--------|-------|
-| Michael Cockerham |       |        |       |
+| Michael Cockerham | Text  |  Disc  | Call  |
 | Kaden Johnson     |       |        |       |
 | Cory Lewis        | Phone |Discord |Email  |
 | Zachary Stradling |Text   |Discord |Email  |
