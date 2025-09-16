@@ -66,7 +66,7 @@ tags:
 
 ### Communication Procedures
 
-We will communicate throughout the week via text or discord and will hold weekly meetings to update ourselves on where we all are on the parts we are working on. If a question comes up on a specific issue, a phone call could be necessary.
+We will communicate throughout the week via text or discord and will hold weekly meetings to update ourselves on where we all are on the parts we are working on. If a question comes up on a specific issue, an email or phone call could be necessary.
 
 ## Team Roles
 | Name              | Role  |
