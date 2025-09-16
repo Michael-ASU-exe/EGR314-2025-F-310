@@ -21,10 +21,7 @@ ul ul li::marker {
 ul ul ul li::marker {
   /* pick ONE of these lines and keep it, comment out the others */
   content: "→ ";    /* arrow */
-  /* content: "• "; */   /* dot */
   /* content: "✓ "; */   /* checkmark */
-  /* content: "· "; */   /* mid dot */
-  /* content: "— "; */   /* long dash */
   font-weight: 600; /* optional */
 }
 
