@@ -23,8 +23,9 @@ tags:
 * Leverage our company's existing manufacturing capabilities
 
 ## Team Goals
- * Early detection & prevention
-   - Provide campground employees with real-time alerts of thermal anomalies to address potential fire hazards before ignition.
+
+* **Early detection & prevention**
+  * Provide campground employees with real-time alerts of thermal anomalies to address potential fire hazards    before ignition.
 
 ## Team Communication 
 
