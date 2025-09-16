@@ -31,7 +31,7 @@ tags:
 |-------------------|-------|--------|-------|
 | Michael Cockerham |       |        |       |
 | Kaden Johnson     |       |        |       |
-| Cory Lewis        | Phone |Discord |Email  |
+| Cory Lewis        |Text   |Discord |Email  |
 | Zachary Stradling |Text   |Discord |Email  |
 | Rishik Atluri     |       |        |       |
 
