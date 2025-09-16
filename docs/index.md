@@ -25,7 +25,7 @@ tags:
 ## Team Goals
 
 * Early detection & prevention
-    - Provide campground employees with real-time alerts of thermal anomalies to address potential fire hazards    before ignition.
+    - Provide campground employees with real-time alerts of thermal anomalies to address potential fire hazards before ignition.
 * Human-Centered Design
     - Embrace the “human element” by ensuring that the system supports staff decision-making rather than replacing it.
 
