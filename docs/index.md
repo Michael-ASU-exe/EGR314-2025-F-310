@@ -18,9 +18,16 @@ tags:
 
 ## Team Charter
 
-* Sell X units per year.
-* Take Y months to go from opportunity identification to shipping our first units.
-* Leverage our company's existing manufacturing capabilities
+* Sell 10 units in our first year.
+    * Focusing in on the Tonto National forest we believe we can convinve ten campgrounds to invest in our product in the first year. 
+* Take four months to go from opportunity identification to shipping our first units.
+    * One base unit is a 10 ft tower with thermal and IR sensors, a motor for scanning 360°, and an ESP32 + server network.
+* Reliable 360° sensor coverage with minimal false positives.
+    * With a budget of $300, Acheiving this will be pivotal in our success. 
+* Real-time communication to a local server accessible by campground employees.
+    * Will be a great selling point for our product in todays world. 
+* A functional prototype demonstrating fire hazard detection at a test site.
+    * Getting a prototype running will make selling 10 units, that much easier. 
 
 ## Team Goals
 
