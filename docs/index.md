@@ -33,7 +33,7 @@ Our mission is to design and prototype innovative embedded systems that enhance 
 | Kaden Johnson     |       |        |       |
 | Cory Lewis        | Phone |Discord |Email  |
 | Zachary Stradling |Text   |Discord |Email  |
-| Rishik Atluri     |       |        |       |
+| Rishik Atluri     | Discord|Text   |Email  |
 
 ### Communication Procedures
 
