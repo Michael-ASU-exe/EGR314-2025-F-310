@@ -5,16 +5,16 @@ tags:
 - tag2
 ---
 <center>
-<font size= "8">Team name</font><br>
+<font size= "8">Michael's the best</font><br>
 <font size= "6">Team 310</font><br>
-<font size= "4"> Cory Lewis | Kaden Johnson | Michael Cockerham | Zachary Stradling</font><br>
+<font size= "4"> Cory Lewis | Kaden Johnson | Michael Cockerham | Zachary Stradling | Rishik Atluri</font><br>
 <font size= "5"> Fall 2025 </font><br>
 <font size= "5"> ASU | EGR314 | Professor Suo </font><br>
 **Submission: 09, 09, 2025**
 </center>
 
 # Our Mission Statement
-    To pass the class
+Our mission is to design and prototype innovative embedded systems that enhance wildfire prevention, detection, and response. By integrating advanced sensing, microcontroller, and IoT technologies into UAV platforms and ground-based weather stations, we aim to deliver reliable, real-time data that empowers firefighting agencies, protects local communities, and supports environmental stewardship. Through scalable, resilient, and stakeholder-focused solutions, our team is committed to shifting wildfire management from reactive firefighting to proactive risk prevention.
 
 ## Team Charter
 
@@ -31,8 +31,10 @@ tags:
 |-------------------|-------|--------|-------|
 | Michael Cockerham | Text  |  Disc  | Call  |
 | Kaden Johnson     |       |        |       |
-| Cory Lewis        |       |        |       |
-| Zachary Stradling |       |        |       |
+| Cory Lewis        | Phone |Discord |Email  |
+| Zachary Stradling |Text   |Discord |Email  |
+| Rishik Atluri     |       |        |       |
+
 
 ### Communication Procedures
 
