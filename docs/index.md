@@ -43,11 +43,11 @@ this is how we do it talk about, when (need 4 hours), who starts, how we keep tr
 ## Team Roles
 | Name              | Role  |
 |-------------------|-------|
-| Michael Cockerham |       |
-| Kaden Johnson     |       |
-| Cory Lewis        |       |
-| Zachary Stradling |       |
-| Rishik Atluri     |       |
+| Michael Cockerham | Project monitor   |
+| Kaden Johnson     | Meeting Recorder  |
+| Cory Lewis        | Meeting Recorder  |
+| Zachary Stradling | Assignment Leader |
+| Rishik Atluri     | Meeting Leader    |
 
 ## Team Coordination & Accountability
 
