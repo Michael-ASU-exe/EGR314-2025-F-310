@@ -14,7 +14,7 @@ tags:
 </center>
 
 # Our Mission Statement
-    Our mission is to design and prototype innovative embedded systems that enhance wildfire prevention, detection, and response. By integrating advanced sensing, microcontroller, and IoT technologies into UAV platforms and ground-based weather stations, we aim to deliver reliable, real-time data that empowers firefighting agencies, protects local communities, and supports environmental stewardship. Through scalable, resilient, and stakeholder-focused solutions, our team is committed to shifting wildfire management from reactive firefighting to proactive risk prevention.
+Our mission is to design and prototype innovative embedded systems that enhance wildfire prevention, detection, and response. By integrating advanced sensing, microcontroller, and IoT technologies into UAV platforms and ground-based weather stations, we aim to deliver reliable, real-time data that empowers firefighting agencies, protects local communities, and supports environmental stewardship. Through scalable, resilient, and stakeholder-focused solutions, our team is committed to shifting wildfire management from reactive firefighting to proactive risk prevention.
 
 ## Team Charter
 
@@ -61,8 +61,7 @@ tags:
 | Kaden Johnson     |Text   |Discord |Email  |
 | Cory Lewis        |Text   |Discord |Email  |
 | Zachary Stradling |Text   |Discord |Email  |
-| Rishik Atluri     |       |        |       |
-
+| Rishik Atluri     | Discord|Text   |Email  |
 
 ### Communication Procedures
 
@@ -71,11 +70,11 @@ We will communicate throughout the week via text or discord and will hold weekly
 ## Team Roles
 | Name              | Role  |
 |-------------------|-------|
-| Michael Cockerham |       |
-| Kaden Johnson     |       |
-| Cory Lewis        |       |
-| Zachary Stradling |       |
-| Rishik Atluri     |       |
+| Michael Cockerham | Project monitor   |
+| Kaden Johnson     | Meeting Recorder  |
+| Cory Lewis        | Meeting Recorder  |
+| Zachary Stradling | Assignment Leader |
+| Rishik Atluri     | Meeting Leader    |
 
 ## Team Coordination & Accountability
 
