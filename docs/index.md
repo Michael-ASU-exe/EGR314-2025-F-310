@@ -35,7 +35,6 @@ Our mission is to design and prototype innovative embedded systems that enhance 
 | Zachary Stradling |Text   |Discord |Email  |
 | Rishik Atluri     |       |        |       |
 
-
 ### Communication Procedures
 
 this is how we do it talk about, when (need 4 hours), who starts, how we keep track, other stuff
