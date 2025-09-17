@@ -1,5 +1,5 @@
 ---
-title: Second Page
+title: Ideation and Concept Generation
 ---
 
 Things to discuss
