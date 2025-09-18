@@ -10,3 +10,18 @@ blockquote{
         color: var(--md-typeset-color);
     }
 }
+
+/* Make second-level list items use a dash instead of a round bullet */
+ul ul li::marker {
+  content: "– ";
+  font-weight: 600; /* optional */
+}
+
+/* 3rd level — choose your symbol */
+ul ul ul li::marker {
+  /* pick ONE of these lines and keep it, comment out the others */
+  content: "→ ";    /* arrow */
+  /* content: "✓ "; */   /* checkmark */
+  font-weight: 600; /* optional */
+}
+
