@@ -10,3 +10,4 @@ Things to discuss
     <img src="Images/Brainstorm.png" alt="Brainstorming sketch" width="700">
   </p>
 </details>
+
