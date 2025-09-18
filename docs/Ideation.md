@@ -1,6 +1,6 @@
 ---
 title: Ideation and Concept Generation
 ---
-![Brainstorming sketch](Brainstorm.png)
+![Brainstorming sketch](Images/Brainstorm.png)
 
 Things to discuss
