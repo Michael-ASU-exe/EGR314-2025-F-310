@@ -8,6 +8,8 @@ title: Ideation and Concept Generation
 
   <p align="center">
     <img src="../Images/Brainstorm.png" alt="Brainstorming sketch" width="700" style="max-width:100%; height:auto;">
+    <br><br>
+    <img src="../Images/RankedIdeas.jpg" alt="Ideation organization" width="700" style="max-width:100%; height:auto;">
   </p>
 </details>
 
