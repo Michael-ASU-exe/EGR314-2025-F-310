@@ -24,4 +24,10 @@ title: Ideation and Concept Generation
     </iframe>
   </p>
 </details>
+</details>
+  <summary><strong>Design Concept Sketch</strong></summary>
 
+  <p align="center">
+    <img src="../Images/DesignConcept.jpg" alt="Design Concept Sketch" width="700" style="max-width:100%; height:autp;">
+  </p>
+<details>
