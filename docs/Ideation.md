@@ -1,6 +1,10 @@
 ---
 title: Ideation and Concept Generation
 ---
-![Brainstorming sketch](Images/Brainstorm.png)
 
 Things to discuss
+<details>
+  <summary><strong>Click me to expand</strong></summary>
+
+  ![Brainstorming sketch](Images/Brainstorm.png)
+</details>
