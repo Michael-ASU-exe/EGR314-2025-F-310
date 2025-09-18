@@ -14,8 +14,7 @@ tags:
 </center>
 
 # Our Mission Statement
-Our mission is to design and prototype innovative embedded systems that enhance wildfire prevention, detection, and response. By integrating advanced sensing, microcontroller, and IoT technologies into UAV platforms and ground-based weather stations, we aim to deliver reliable, real-time data that empowers firefighting agencies, protects local communities, and supports environmental stewardship. Through scalable, resilient, and stakeholder-focused solutions, our team is committed to shifting wildfire management from reactive firefighting to proactive risk prevention.
-
+Our mission is to create a device that uses infrared technology to spot hot spots from abandoned campfires and alert the forest service, helping stop wildfires before they spread.
 ## Team Charter
 
 * Sell 10 units in our first year.
