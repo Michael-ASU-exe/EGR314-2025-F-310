@@ -10,7 +10,7 @@ tags:
 <font size= "4"> Cory Lewis | Kaden Johnson | Michael Cockerham | Zachary Stradling | Rishik Atluri</font><br>
 <font size= "5"> Fall 2025 </font><br>
 <font size= "5"> ASU | EGR314 | Professor Suo </font><br>
-**Submission: 09, 09, 2025**
+**Submission: 12/05/2025**
 </center>
 
 # Our Mission Statement
