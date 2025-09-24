@@ -7,7 +7,7 @@ tags:
 <center>
 <font size= "8">Heat Seekers</font><br>
 <font size= "6">Team 310</font><br>
-<font size= "4"> Cory Lewis | Kaden Johnson | Michael Cockerham | Zachary Stradling | Rishik Atluri</font><br>
+<font size= "4"> Cory Lewis | Kaden Johnson | Michael Cockerham | Zachary Stradling | Rishik Atluri </font><br>
 <font size= "5"> Fall 2025 </font><br>
 <font size= "5"> ASU | EGR314 | Professor Suo </font><br>
 **Submission: 12/05/2025**
