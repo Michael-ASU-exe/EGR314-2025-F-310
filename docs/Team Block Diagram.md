@@ -1,4 +1,4 @@
 ---
-Title: Block Diagram
+title: Block Diagram
 ---
 
