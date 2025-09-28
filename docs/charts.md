@@ -1,3 +1,3 @@
 ---
-Block Diagram
+Title: Block Diagram
 ---
