@@ -25,3 +25,26 @@ ul ul ul li::marker {
   font-weight: 600; /* optional */
 }
 
+/* ============================
+   Table styling for selection page
+   ============================ */
+
+/* Borders + spacing */
+.md-typeset table:not([class]) {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.md-typeset table:not([class]) th,
+.md-typeset table:not([class]) td {
+  border: 1px solid rgba(0,0,0,.15);
+  vertical-align: top;
+  padding: .6rem .8rem;
+}
+
+/* Table headers use site’s primary red */
+.md-typeset table:not([class]) thead th {
+  background: var(--md-primary-fg-color);
+  color: #fff;
+  font-weight: 700;
+}
