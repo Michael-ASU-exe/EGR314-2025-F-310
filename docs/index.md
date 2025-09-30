@@ -13,6 +13,7 @@ tags:
 **Submission: 12/05/2025**
 </center>
 
+
 # Our Mission Statement
 Our mission is to create a device that utilizes infrared technology to detect hot spots from abandoned campfires and alert the forest service, thereby helping to prevent wildfires from spreading.
 ## Team Charter

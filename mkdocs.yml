@@ -40,10 +40,10 @@ markdown_extensions:
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
 
-draft_docs: |
-  **/*_unpublished.md
-  **/*_draft.md
-  **/*_draft**
+#draft_docs: |
+#  **/*_unpublished.md
+#  **/*_draft.md
+#  **/*_draft**
   
 plugins:
   - search
