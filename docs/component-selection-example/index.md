@@ -4,6 +4,9 @@ title: Component Selection
 
 # Major Hardware Selection
 
+<div class="full-bleed">
+  <div class="inner">
+
 <details>
 <summary><h2>Microcontroller Selection</h2></summary>
 
@@ -22,7 +25,7 @@ title: Component Selection
       <td><strong>ESP32-WROOM</strong></td>
       <td><img src="../Images/ESP32.png" width="130"/></td>
       <td>
-        Widely used with students amd hobbyists alike<br/>
+        Widely used across all forums<br/>
         Plenty of docs/examples<br/>
         Good peripherals for class labs
       </td>
@@ -42,7 +45,7 @@ title: Component Selection
         Write a few cons
       </td>
       <td><a href="insert url here"> Datasheet</a></td>
-    <tr>    
+    </tr>    
     <tr>
       <td><strong>Another alternatice to ESP32</strong></td>
       <td><img src="../Images/Raspberry.png" width="130"/></td>
@@ -53,7 +56,7 @@ title: Component Selection
         Write a few cons
       </td>
       <td><a href="insert url here"> Datasheet</a></td>
-    <tr>    
+    </tr>    
   </tbody>
 </table>
 
@@ -125,3 +128,6 @@ title: Component Selection
 </ul> | [Example](https://www.pololu.com/) |
 
 </details>
+
+  </div>
+</div>

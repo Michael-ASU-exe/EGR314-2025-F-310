@@ -60,3 +60,26 @@ ul ul ul li::marker {
   table-layout: auto;           /* Natural column sizing */
 }
 
+/* Full-bleed block that escapes the centered column on desktop */
+@media (min-width: 1000px) {
+  .full-bleed {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+  }
+  /* keep content nicely centered inside the full-bleed area */
+  .full-bleed .inner {
+    max-width: 1200px;     /* change to 1100–1400px if you want */
+    margin: 0 auto;
+    padding: 0 16px;
+  }
+  /* tables inside full-bleed should use full width of that inner track */
+  .full-bleed .inner table {
+    width: 100%;
+    table-layout: auto;
+  }
+}
+
