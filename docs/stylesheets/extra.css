@@ -48,3 +48,15 @@ ul ul ul li::marker {
   color: #fff;
   font-weight: 700;
 }
+/* ================================
+   Widen details dropdowns + tables
+   ================================ */
+.md-typeset details {
+  max-width: 100% !important;   /* Make dropdown stretch across the page */
+}
+
+.md-typeset table {
+  width: 100% !important;       /* Table fills dropdown width */
+  table-layout: auto;           /* Natural column sizing */
+}
+
