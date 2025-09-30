@@ -43,6 +43,17 @@ title: Component Selection
       </td>
       <td><a href="insert url here"> Datasheet</a></td>
     <tr>    
+    <tr>
+      <td><strong>Another alternatice to ESP32</strong></td>
+      <td><img src="../Images/Raspberry.png" width="130"/></td>
+      <td>
+        Write a few pros
+      </td>
+      <td>
+        Write a few cons
+      </td>
+      <td><a href="insert url here"> Datasheet</a></td>
+    <tr>    
   </tbody>
 </table>
 
