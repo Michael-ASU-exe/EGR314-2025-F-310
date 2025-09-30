@@ -25,7 +25,7 @@ title: Component Selection
       <td><strong>ESP32-WROOM</strong></td>
       <td><img src="../Images/ESP32.png" width="130"/></td>
       <td>
-        Familiar toolchain (MPLAB X + MCC Melody)<br/>
+        Widely used across all forums<br/>
         Plenty of docs/examples<br/>
         Good peripherals for class labs
       </td>
