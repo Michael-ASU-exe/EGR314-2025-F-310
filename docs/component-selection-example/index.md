@@ -7,13 +7,36 @@ title: Component Selection
 <details>
 <summary><h2>Microcontroller Selection</h2></summary>
 
-<br>
-
-| component       | Image | Advantages | Disadvantages | Link |
-|-----------------|-------|------------|----------------|------|
-| **ESP32-WROOM** | ![](../Images/ESP32.png){ width="130" } | familiar toolchain (MPLAB X + MCC Melody)<br>Plenty of docs/examples<br>Good peripherals for class labs | 8-bit CPU limits vs. 32-bit MCUs<br>Lower library ecosystem than ARM | [Datasheet](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-DEVKITC-32UE/12091813) |
+<table>
+  <thead>
+    <tr>
+      <th>Component</th>
+      <th>Image</th>
+      <th>Advantages</th>
+      <th>Disadvantages</th>
+      <th>Link</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>ESP32-WROOM</strong></td>
+      <td><img src="../Images/ESP32.png" width="130"/></td>
+      <td>
+        Familiar toolchain (MPLAB X + MCC Melody)<br/>
+        Plenty of docs/examples<br/>
+        Good peripherals for class labs
+      </td>
+      <td>
+        8-bit CPU limits vs. 32-bit MCUs<br/>
+        Lower library ecosystem than ARM
+      </td>
+      <td><a href="https://www.digikey.com/en/products/detail/espressif-systems/ESP32-DEVKITC-32UE/12091813">Datasheet</a></td>
+    </tr>
+  </tbody>
+</table>
 
 </details>
+
 
 
 
