@@ -1,58 +1,82 @@
 ---
-title: Component Selection Example
+title: Component Selection
 ---
 
-## Examples
+# Major Hardware Selection
 
-### Style 1
+<details>
+<summary><h2>Microcontroller Selection</h2></summary>
 
-> This is the example found in the assignment, uses more html
+<br>
 
-*Table 1: Example component selection*
+| Component       | Image | Advantages | Disadvantages | Link |
+|-----------------|-------|------------|----------------|------|
+| **ESP32-WROOM** | ![](../Images/ESP32.png){ width="130" } | Familiar toolchain (MPLAB X + MCC Melody)<br>Plenty of docs/examples<br>Good peripherals for class labs | 8-bit CPU limits vs. 32-bit MCUs<br>Lower library ecosystem than ARM | [Datasheet](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-DEVKITC-32UE/12091813) |
 
-**External Clock Module**
+</details>
 
-| **Solution**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| ![](image1.png)<br>Option 1.<br> XC1259TR-ND surface mount crystal<br>$1/each<br>[link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)                 | \* Inexpensive[^1]<br>\* Compatible with PSoC<br>\* Meets surface mount constraint of project                                               | \* Requires external components and support circuitry for interface<br>\* Needs special PCB layout. |
-| ![](image3.png)<br>\* Option 2. <br>\* CTX936TR-ND surface mount oscillator <br>\* $1/each <br>\* [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940) | \* Outputs a square wave <br>\* Stable over operating temperature <br> \* Direct interface with PSoC (no external circuitry required) range | * More expensive <br>\* Slow shipping speed                                                         |
 
-**Choice:** Option 2: CTX936TR-ND surface mount oscillator
 
-**Rationale:** A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.
+<details>
+<summary><h2>Power Regulator Selection</h2></summary>
 
-### Style 2
+| Component | Image | Advantages | Disadvantages | Link |
+|---|---:|---|---|:--:|
+| **LM2596S-3.3V** | ![lm2596](../Images/lm2596.png){ width="130" } |
+<ul>
+<li>Up to 3 A, efficient buck</li>
+<li>Great for higher Vin → 3.3 V</li>
+</ul> |
+<ul>
+<li>Needs external inductor/diode/caps</li>
+<li>Can introduce switching noise</li>
+</ul> | [Product](https://www.ti.com/product/LM2596) |
 
-> Also acceptable, more markdown friendly
+</details>
 
-**External Clock Module**
+<details>
+<summary><h2>Sensor Selection</h2></summary>
 
-1. XC1259TR-ND surface mount crystal
+| Component | Image | Advantages | Disadvantages | Link |
+|---|---:|---|---|:--:|
+| **TC74A4-3.3V** | ![tc74](../Images/tc74.png){ width="130" } |
+<ul>
+<li>I²C temperature sensor, simple</li>
+<li>Low parts count</li>
+</ul> |
+<ul>
+<li>±2 °C typ accuracy</li>
+</ul> | [Datasheet](https://www.microchip.com/en-us/product/TC74) |
 
-    ![](image1.png)
+</details>
 
-    * $1/each
-    * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
+<details>
+<summary><h2>Motor Driver Selection</h2></summary>
 
-    | Pros                                      | Cons                                                             |
-    | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Inexpensive                               | Requires external components and support circuitry for interface |
-    | Compatible with PSoC                      | Needs special PCB layout.                                        |
-    | Meets surface mount constraint of project |
+| Component | Image | Advantages | Disadvantages | Link |
+|---|---:|---|---|:--:|
+| **DRV8825** | ![drv8825](../Images/drv8825.png){ width="130" } |
+<ul>
+<li>Stepper driver, microstepping</li>
+<li>Common, lots of examples</li>
+</ul> |
+<ul>
+<li>Needs careful current/thermal setup</li>
+</ul> | [Datasheet](https://www.ti.com/product/DRV8825) |
 
-1. CTX936TR-ND surface mount oscillator
+</details>
 
-    ![](image3.png)
+<details>
+<summary><h2>Motor Selection</h2></summary>
 
-    * $1/each
-    * [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940)
+| Component | Image | Advantages | Disadvantages | Link |
+|---|---:|---|---|:--:|
+| **NEMA-17 Stepper** | ![nema17](../Images/nema17.png){ width="130" } |
+<ul>
+<li>Widely available, predictable torque</li>
+</ul> |
+<ul>
+<li>Lower top speed than DC motors</li>
+</ul> | [Example](https://www.pololu.com/) |
 
-    | Pros                                                              | Cons                |
-    | ----------------------------------------------------------------- | ------------------- |
-    | Outputs a square wave                                             | More expensive      |
-    | Stable over operating temperature                                 | Slow shipping speed |
-    | Direct interface with PSoC (no external circuitry required) range |
-
-**Choice:** Option 2: CTX936TR-ND surface mount oscillator
-
-**Rationale:** A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.
+</details>

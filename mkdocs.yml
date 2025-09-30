@@ -40,7 +40,6 @@ markdown_extensions:
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
 
-# COMMENT THIS OUT!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 #draft_docs: |
 #  **/*_unpublished.md
 #  **/*_draft.md
@@ -56,14 +55,10 @@ extra_css:
 extra_javascript:
  - javascripts/mathjax.js
  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-#COMMENT OUT AND REPLACE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-# Change this:
-# not_in_nav: 
-#  - 'static/**'
-
+    
 not_in_nav: |
   static/**
-#end replace   
+  
 copyright: "Copyright &copy; 2024 Heat Seekers"
 
 extra:
