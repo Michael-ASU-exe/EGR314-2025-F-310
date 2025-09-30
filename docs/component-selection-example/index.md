@@ -4,6 +4,9 @@ title: Component Selection
 
 # Major Hardware Selection
 
+<div class="full-bleed">
+  <div class="inner">
+
 <details>
 <summary><h2>Microcontroller Selection</h2></summary>
 
@@ -125,3 +128,6 @@ title: Component Selection
 </ul> | [Example](https://www.pololu.com/) |
 
 </details>
+
+  </div>
+</div>
