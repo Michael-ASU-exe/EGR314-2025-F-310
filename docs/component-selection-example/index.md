@@ -247,7 +247,7 @@ title: Component Selection
 <details>
 <summary><h2>Motor Selection</h2></summary>
 
-<table>
+<table>  
   <thead>
     <tr>
       <th>Component</th>
@@ -302,5 +302,5 @@ title: Component Selection
 
 </details>
 
- </div>
+</div>
 </div>
