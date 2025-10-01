@@ -273,11 +273,11 @@ title: Component Selection
       <td><img src="../Images/Mo1.webp" width="130"/></td>
       <td>
         - Cheapest of the motors<br/>
-        - something
+        - has a good data sheet
       </td>
       <td>
-        - Write a few cons<br/>
-        - something
+        Limited torque<br/>
+        At higher RPM, the stepper has resonance issues
       </td>
       <td><a href="https://www.digikey.com/en/products/detail/adafruit-industries-llc/324/5022791">Datasheet</a></td>
     </tr>
@@ -285,12 +285,12 @@ title: Component Selection
       <td><strong>MOT-I-81619</strong></td>
       <td><img src="../Images/MOT.png" width="130"/></td>
       <td>
-        - Write a few pros<br/>
-        - something
+        Decent documentation<br/>
+        Easier for mechanical integration
       </td>
       <td>
-        - More expensive than the 324<br/>
-        - something
+        More expensive than the 324<br/>
+        Torque falls off at higher RPMs
       </td>
       <td><a href="https://www.digikey.com/en/products/detail/sparkfun-electronics/09238/5318747?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLljrokQXUJCxtzhlniK662PLm&gclid=CjwKCAjw_-3GBhAYEiwAjh9fUDY4mAaD5cVICg9DJ3dkp2tuUlxmwplDsnTPRYFdyZxFki9ZKPAaPRoC-vIQAvD_BwE"> Datasheet</a></td>
     </tr>    
@@ -298,12 +298,12 @@ title: Component Selection
       <td><strong>918</strong></td>
       <td><img src="../Images/Mo3.webp" width="130"/></td>
       <td>
-        - Write a few pros<br/>
-        - something 
+        can offer more torque<br/>
+        Good heat displacement  
       </td>
       <td>
-        - Write a few cons<br/>
-        - something
+        more complex to program<br/>
+        mounting may be more difficult
       </td>
       <td><a href="https://www.digikey.com/en/products/detail/adafruit-industries-llc/918/5629415?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLljrokQXUJCxtzhlniK662PLm&gclid=CjwKCAjw_-3GBhAYEiwAjh9fUGxSH1X5xyUS0WGCDu5T2N96eoFQoZ9U3X1nPWaGIcAxK6H59jPM1BoC19wQAvD_BwE"> Datasheet</a></td>
     </tr>    
