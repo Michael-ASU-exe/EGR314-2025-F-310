@@ -247,7 +247,17 @@ title: Component Selection
 <details>
 <summary><h2>Motor Selection</h2></summary>
 
-<table>  
+<table> 
+
+  <!-- Force identical column widths -->
+  <colgroup>
+    <col style="width:18%">
+    <col style="width:18%">
+    <col style="width:28%">
+    <col style="width:28%">
+    <col style="width:8%">
+  </colgroup>
+
   <thead>
     <tr>
       <th>Component</th>
