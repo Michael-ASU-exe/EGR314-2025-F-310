@@ -25,13 +25,13 @@ title: Component Selection
       <td><strong>ESP32-WROOM</strong></td>
       <td><img src="../Images/ESP32.png" width="130"/></td>
       <td>
-        Currently using in class<br/>
-        Plenty of docs/examples<br/>
-        Good peripherals for class labs
+        - Currently using in class<br/>
+        - Plenty of docs/examples<br/>
+        - Good peripherals for class labs
       </td>
       <td>
-        Built in antenna<br/>
-        Lower library ecosystem than ARM
+        - Built in antenna<br/>
+        - Lower library ecosystem than ARM
       </td>
       <td><a href="https://www.digikey.com/en/products/detail/espressif-systems/ESP32-DEVKITC-32UE/12091813">Datasheet</a></td>
     </tr>
@@ -39,13 +39,13 @@ title: Component Selection
       <td><strong>Raspberry Pi Pico</strong></td>
       <td><img src="../Images/Raspberry.png" width="130"/></td>
       <td>
-        Large community and libraries<br/>
-        Can handle advanced tasks like AI and image processing
+        - Large community and libraries<br/>
+        - Can handle advanced tasks like AI and image processing
       </td>
       <td>
-       More power hungry<br/>
-       More expensive than ESP32 or Arduino.<br/>
-       Overkill for simple sensor/motor tasks. 
+        - More power hungry<br/>
+        - More expensive than ESP32 or Arduino<br/>
+        - Overkill for simple sensor/motor tasks 
       </td>
       <td><a href="(https://www.sparkfun.com/raspberry-pi-5-16gb.html?src=raspberrypi)"> Datasheet</a></td>
     </tr>    
@@ -53,13 +53,13 @@ title: Component Selection
       <td><strong>Arduino Uno - R3</strong></td>
       <td><img src="../Images/Arduino Uno - R3.png" width="130"/></td>
       <td>
-        Large community and libraries<br/>
-        Very low power consumption.<br/>
-        Extremely simple 
+        - Large community and libraries<br/>
+        - Very low power consumption.<br/>
+        - Extremely simple 
       </td>
       <td>
-        Limited processing power<br/>
-        No built-in Wi-Fi or Bluetooth<br/>
+        - Limited processing power<br/>
+        - No built-in Wi-Fi or Bluetooth
       </td>
       <td><a href="https://www.sparkfun.com/arduino-uno-r3.html"> Datasheet</a></td>
     </tr>    
@@ -86,13 +86,13 @@ title: Component Selection
       <td><strong>LM2575D2T-3.3R4G</strong></td>
       <td><img src="../Images/P1.webp" width="130"/></td>
       <td>
-       have used in the lab<br/>
-       is surface mount<br/>
-       has a heat sink 
+        - Have used in the lab<br/>
+        - Is surface mount<br/>
+        - Has a heat sink 
       </td>
       <td>
-        harder to solder as all feet are on one side<br/>
-        We need to use it 
+        - Harder to solder as all feet are on one side<br/>
+        - We need to use it 
       </td>
       <td><a href="https://www.digikey.com/en/products/detail/onsemi/LM2575D2T-3-3R4G/1476688">Datasheet</a></td>
     </tr>
@@ -100,12 +100,12 @@ title: Component Selection
       <td><strong>LF33CV</strong></td>
       <td><img src="../Images/P2.webp" width="130"/></td>
       <td>
-        Don't need to buy the part<br/>
-        smaller footprint than surface mount
+        - Don't need to buy the part<br/>
+        - Smaller footprint than surface mount
       </td>
       <td>
-        is through hole<br/>
-        will be taller
+        - Is through hole<br/>
+        - Will be taller
       </td>
       <td><a href="https://www.digikey.com/en/products/detail/stmicroelectronics/LF33CV/1038546"> Datasheet</a></td>
     </tr>    
@@ -113,12 +113,12 @@ title: Component Selection
       <td><strong>L4931-3.3</strong></td>
       <td><img src="../Images/P3.jpg" width="130"/></td>
       <td>
-        cheaper than the others<br/>
-        We have used it in a previous lab
+        - Cheaper than the others<br/>
+        - We have used it in a previous lab
       </td>
       <td>
-        is through hole<br/>
-        not as efficient as it is linear
+        - Is through hole<br/>
+        - Not as efficient as it is linear
       </td>
       <td><a href="https://www.adafruit.com/product/2166?srsltid=AfmBOoqWcCuJELxtJVzFxIRpEGNKCCuCQmUOuTcbpZCLRW1pGNdhxgWv5Fo"> Datasheet</a></td>
     </tr>    
@@ -145,12 +145,12 @@ title: Component Selection
       <td><strong>HPP845E031R4</strong></td>
       <td><img src="../Images/HS1.webp" width="130"/></td>
       <td>
-        has a heat sink<br/>
-        is surface mount
+        - Has a heat sink<br/>
+        - Is surface mount
       </td>
       <td>
-        has no external feet for soldering<br/>
-        will need to learn a new method of soldering to complete the project
+        - Has no external feet for soldering<br/>
+        - Will need to learn a new method of soldering to complete the project
       </td>
       <td><a href="https://www.digikey.com/en/products/detail/te-connectivity-measurement-specialties/HPP845E031R4/3945784">Datasheet</a></td>
     </tr>
@@ -158,13 +158,13 @@ title: Component Selection
       <td><strong>SHT21-TR</strong></td>
       <td><img src="../Images/HS2.jpg" width="130"/></td>
       <td>
-       has a heat sink<br/>
-       is surface mount 
+        - Has a heat sink<br/>
+        - Is surface mount 
       </td>
       <td>
-        has no external feet for soldering<br/>
-        will need to learn a new method of soldering to complete the project<br/>
-        operates at a lower A
+        - Has no external feet for soldering<br/>
+        - Will need to learn a new method of soldering to complete the project<br/>
+        - Operates at a lower A
       </td>
       <td><a href="https://www.digikey.com/en/products/detail/sensirion-ag/SHT21-TR-0-4KS/5872245"> Datasheet</a></td>
     </tr>    
@@ -172,12 +172,12 @@ title: Component Selection
       <td><strong>ST0248</strong></td>
       <td><img src="../Images/HS3.jpg" width="130"/></td>
       <td>
-        will not need to buy<br/>
-        simpeler soldering footprint
+        - Will not need to buy<br/>
+        - Simpler soldering footprint
       </td>
       <td>
-        is through hole<br/>
-        will take up lots of room on PCB
+        - Is through hole<br/>
+        - Will take up lots of room on PCB
       </td>
       <td><a href="https://www.digikey.com/en/products/detail/sunfounder/ST0248/22116817?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLljrokQXUJCxtzhlniK662PLm&gclid=CjwKCAjw_-3GBhAYEiwAjh9fUFkM3ipS1jjoTkSoJ8_jWRjEfiZhy1Oncc5SdL8zCaNNATmc9wrYOxoC4T8QAvD_BwE"> Datasheet</a></td>
     </tr>    
@@ -204,12 +204,12 @@ title: Component Selection
       <td><strong>DRV8825PWPR</strong></td>
       <td><img src="../Images/Dr1.webp" width="130"/></td>
       <td>
-       has a heat sink<br/>
-       is surface mount 
+        - Has a heat sink<br/>
+        - Is surface mount 
       </td>
       <td>
-        overkill for 1 motor<br/>
-        will take up lots of room on board, only needing 4 of its 28 pins
+        - Overkill for 1 motor<br/>
+        - Will take up lots of room on board, only needing 4 of its 28 pins
       </td>
       <td><a href="https://www.digikey.com/en/products/detail/texas-instruments/DRV8825PWPR/2695909">Datasheet</a></td>
     </tr>
@@ -217,12 +217,12 @@ title: Component Selection
       <td><strong>H-Bridge Motor</strong></td>
       <td><img src="../Images/Dr2.webp" width="130"/></td>
       <td>
-        have used in a previous lab<br/>
-        fewer pins to worry about
+        - Have used in a previous lab<br/>
+        - Fewer pins to worry about
       </td>
       <td>
-        is through hole<br/>
-        no heat sink
+        - Is through hole<br/>
+        - No heat sink
       </td>
       <td><a href="https://www.sparkfun.com/h-bridge-motor-driver-1a.html"> Datasheet</a></td>
     </tr>    
@@ -230,12 +230,12 @@ title: Component Selection
       <td><strong>Dual H-Bridge Motor</strong></td>
       <td><img src="../Images/Dr3.jpg" width="130"/></td>
       <td>
-        have used in a previous lab<br/>
-        fewer pins to worry about
+        - Have used in a previous lab<br/>
+        - Fewer pins to worry about
       </td>
       <td>
-        is through hole<br/>
-        no heat sink
+        - Is through hole<br/>
+        - No heat sink
       </td>
       <td><a href="https://www.adafruit.com/product/807?srsltid=AfmBOoouuligJwookAO5PMbB88Uj6VmlJy2_OE97h6Vdu7grntC-R9bXspE"> Datasheet</a></td>
     </tr>    
@@ -262,21 +262,21 @@ title: Component Selection
       <td><strong>324</strong></td>
       <td><img src="../Images/Mo1.webp" width="130"/></td>
       <td>
-        Write a few pros
+        - Cheapest of the motors
       </td>
       <td>
-        Write a few cons
+        - Write a few cons
       </td>
       <td><a href="https://www.digikey.com/en/products/detail/adafruit-industries-llc/324/5022791">Datasheet</a></td>
     </tr>
     <tr>
-      <td><strong>09238</strong></td>
-      <td><img src="../Images/Mo2.jpg" width="130"/></td>
+      <td><strong>MOT-I-81619</strong></td>
+      <td><img src="../Images/MOT.png" width="130"/></td>
       <td>
-        Write a few pros
+        - Write a few pros
       </td>
       <td>
-        Write a few cons
+        - More expensive than the 324
       </td>
       <td><a href="https://www.digikey.com/en/products/detail/sparkfun-electronics/09238/5318747?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLljrokQXUJCxtzhlniK662PLm&gclid=CjwKCAjw_-3GBhAYEiwAjh9fUDY4mAaD5cVICg9DJ3dkp2tuUlxmwplDsnTPRYFdyZxFki9ZKPAaPRoC-vIQAvD_BwE"> Datasheet</a></td>
     <tr>    
