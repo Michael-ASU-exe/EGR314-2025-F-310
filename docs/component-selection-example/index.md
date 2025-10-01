@@ -51,7 +51,7 @@ title: Component Selection
     </tr>    
     <tr>
       <td><strong>Arduino Uno - R3</strong></td>
-      <td><img src="../Images/Arduino Uno - R3.png" width="130"/></td>
+      <td><img src="../Images/Arduino.png" width="130"/></td>
       <td>
         - Large community and libraries<br/>
         - Very low power consumption.<br/>
