@@ -4,9 +4,6 @@ title: Component Selection
 
 # Major Hardware Selection
 
-<div class="full-bleed">
-  <div class="inner">
-
 <details>
 <summary><h2>Microcontroller Selection</h2></summary>
 
@@ -25,12 +22,12 @@ title: Component Selection
       <td><strong>ESP32-WROOM</strong></td>
       <td><img src="../Images/ESP32.png" width="130"/></td>
       <td>
-        Widely used across all forums<br/>
+        Currently using in class<br/>
         Plenty of docs/examples<br/>
         Good peripherals for class labs
       </td>
       <td>
-        8-bit CPU limits vs. 32-bit MCUs<br/>
+        Built in antenna<br/>
         Lower library ecosystem than ARM
       </td>
       <td><a href="https://www.digikey.com/en/products/detail/espressif-systems/ESP32-DEVKITC-32UE/12091813">Datasheet</a></td>
@@ -39,95 +36,260 @@ title: Component Selection
       <td><strong>Raspberry Pi Pico</strong></td>
       <td><img src="../Images/Raspberry.png" width="130"/></td>
       <td>
-        Write a few pros
+        Large community and libraries<br/>
+        Can handle advanced tasks like AI and image processing
       </td>
       <td>
-        Write a few cons
+       More power hungry<br/>
+       More expensive than ESP32 or Arduino.<br/>
+       Overkill for simple sensor/motor tasks. 
       </td>
-      <td><a href="insert url here"> Datasheet</a></td>
-    </tr>    
+      <td><a href="(https://www.sparkfun.com/raspberry-pi-5-16gb.html?src=raspberrypi)"> Datasheet</a></td>
+    <tr>    
     <tr>
-      <td><strong>Another alternatice to ESP32</strong></td>
-      <td><img src="../Images/Raspberry.png" width="130"/></td>
+      <td><strong>Arduino Uno - R3</strong></td>
+      <td><img src="../Images/Arduino Uno - R3.png" width="130"/></td>
       <td>
-        Write a few pros
+        Large community and libraries<br/>
+        Very low power consumption.<br/>
+        Extremely simple 
       </td>
       <td>
-        Write a few cons
+        Limited processing power<br/>
+        No built-in Wi-Fi or Bluetooth<br/>
       </td>
-      <td><a href="insert url here"> Datasheet</a></td>
-    </tr>    
+      <td><a href="https://www.sparkfun.com/arduino-uno-r3.html"> Datasheet</a></td>
+    <tr>    
   </tbody>
 </table>
 
 </details>
 
-
-
-
 <details>
 <summary><h2>Power Regulator Selection</h2></summary>
 
-| Component | Image | Advantages | Disadvantages | Link |
-|---|---:|---|---|:--:|
-| **LM2596S-3.3V** | ![lm2596](../Images/lm2596.png){ width="130" } |
-<ul>
-<li>Up to 3 A, efficient buck</li>
-<li>Great for higher Vin → 3.3 V</li>
-</ul> |
-<ul>
-<li>Needs external inductor/diode/caps</li>
-<li>Can introduce switching noise</li>
-</ul> | [Product](https://www.ti.com/product/LM2596) |
+<table>
+  <thead>
+    <tr>
+      <th>Component</th>
+      <th>Image</th>
+      <th>Advantages</th>
+      <th>Disadvantages</th>
+      <th>Link</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>LM2575D2T-3.3R4G</strong></td>
+      <td><img src="../Images/P1.webp" width="130"/></td>
+      <td>
+       have used in the lab<br/>
+       is surface mount<br/>
+       has a heat sink 
+      </td>
+      <td>
+        harder to solder as all feet are on one side<br/>
+        We need to use it 
+      </td>
+      <td><a href="https://www.digikey.com/en/products/detail/onsemi/LM2575D2T-3-3R4G/1476688">Datasheet</a></td>
+    </tr>
+    <tr>
+      <td><strong>LF33CV</strong></td>
+      <td><img src="../Images/P2.webp" width="130"/></td>
+      <td>
+        Don't need to buy the part<br/>
+        smaller footprint than surface mount
+      </td>
+      <td>
+        is through hole<br/>
+        will be taller
+      </td>
+      <td><a href="https://www.digikey.com/en/products/detail/stmicroelectronics/LF33CV/1038546"> Datasheet</a></td>
+    <tr>    
+    <tr>
+      <td><strong>L4931-3.3</strong></td>
+      <td><img src="../Images/P3.jpg" width="130"/></td>
+      <td>
+        cheaper than the others<br/>
+        We have used it in a previous lab
+      </td>
+      <td>
+        is through hole<br/>
+        not as efficient as it is linear
+      </td>
+      <td><a href="https://www.adafruit.com/product/2166?srsltid=AfmBOoqWcCuJELxtJVzFxIRpEGNKCCuCQmUOuTcbpZCLRW1pGNdhxgWv5Fo"> Datasheet</a></td>
+    <tr>    
+  </tbody>
+</table>
 
 </details>
 
 <details>
 <summary><h2>Sensor Selection</h2></summary>
 
-| Component | Image | Advantages | Disadvantages | Link |
-|---|---:|---|---|:--:|
-| **TC74A4-3.3V** | ![tc74](../Images/tc74.png){ width="130" } |
-<ul>
-<li>I²C temperature sensor, simple</li>
-<li>Low parts count</li>
-</ul> |
-<ul>
-<li>±2 °C typ accuracy</li>
-</ul> | [Datasheet](https://www.microchip.com/en-us/product/TC74) |
+<table>
+  <thead>
+    <tr>
+      <th>Component</th>
+      <th>Image</th>
+      <th>Advantages</th>
+      <th>Disadvantages</th>
+      <th>Link</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>HPP845E031R4</strong></td>
+      <td><img src="../Images/HS1.webp" width="130"/></td>
+      <td>
+        has a heat sink<br/>
+        is surface mount
+      </td>
+      <td>
+        has no external feet for soldering<br/>
+        will need to learn a new method of soldering to complete the project
+      </td>
+      <td><a href="https://www.digikey.com/en/products/detail/te-connectivity-measurement-specialties/HPP845E031R4/3945784">Datasheet</a></td>
+    </tr>
+    <tr>
+      <td><strong>SHT21-TR</strong></td>
+      <td><img src="../Images/HS2.jpg" width="130"/></td>
+      <td>
+       has a heat sink<br/>
+       is surface mount 
+      </td>
+      <td>
+        has no external feet for soldering<br/>
+        will need to learn a new method of soldering to complete the project<br/>
+        operates at a lower A
+      </td>
+      <td><a href="https://www.digikey.com/en/products/detail/sensirion-ag/SHT21-TR-0-4KS/5872245"> Datasheet</a></td>
+    <tr>    
+    <tr>
+      <td><strong>ST0248</strong></td>
+      <td><img src="../Images/HS3.jpg" width="130"/></td>
+      <td>
+        will not need to buy<br/>
+        simpeler soldering footprint
+      </td>
+      <td>
+        is through hole<br/>
+        will take up lots of room on PCB
+      </td>
+      <td><a href="https://www.digikey.com/en/products/detail/sunfounder/ST0248/22116817?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLljrokQXUJCxtzhlniK662PLm&gclid=CjwKCAjw_-3GBhAYEiwAjh9fUFkM3ipS1jjoTkSoJ8_jWRjEfiZhy1Oncc5SdL8zCaNNATmc9wrYOxoC4T8QAvD_BwE"> Datasheet</a></td>
+    <tr>    
+  </tbody>
+</table>
 
 </details>
 
 <details>
 <summary><h2>Motor Driver Selection</h2></summary>
 
-| Component | Image | Advantages | Disadvantages | Link |
-|---|---:|---|---|:--:|
-| **DRV8825** | ![drv8825](../Images/drv8825.png){ width="130" } |
-<ul>
-<li>Stepper driver, microstepping</li>
-<li>Common, lots of examples</li>
-</ul> |
-<ul>
-<li>Needs careful current/thermal setup</li>
-</ul> | [Datasheet](https://www.ti.com/product/DRV8825) |
+<table>
+  <thead>
+    <tr>
+      <th>Component</th>
+      <th>Image</th>
+      <th>Advantages</th>
+      <th>Disadvantages</th>
+      <th>Link</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>DRV8825PWPR</strong></td>
+      <td><img src="../Images/Dr1.webp" width="130"/></td>
+      <td>
+       has a heat sink<br/>
+       is surface mount 
+      </td>
+      <td>
+        overkill for 1 motor<br/>
+        will take up lots of room on board, only needing 4 of its 28 pins
+      </td>
+      <td><a href="https://www.digikey.com/en/products/detail/texas-instruments/DRV8825PWPR/2695909">Datasheet</a></td>
+    </tr>
+    <tr>
+      <td><strong>H-Bridge Motor</strong></td>
+      <td><img src="../Images/Dr2.webp" width="130"/></td>
+      <td>
+        have used in a previous lab<br/>
+        fewer pins to worry about
+      </td>
+      <td>
+        is through hole<br/>
+        no heat sink
+      </td>
+      <td><a href="https://www.sparkfun.com/h-bridge-motor-driver-1a.html"> Datasheet</a></td>
+    <tr>    
+    <tr>
+      <td><strong>Dual H-Bridge Motor</strong></td>
+      <td><img src="../Images/Dr3.jpg" width="130"/></td>
+      <td>
+        have used in a previous lab<br/>
+        fewer pins to worry about
+      </td>
+      <td>
+        is through hole<br/>
+        no heat sink
+      </td>
+      <td><a href="https://www.adafruit.com/product/807?srsltid=AfmBOoouuligJwookAO5PMbB88Uj6VmlJy2_OE97h6Vdu7grntC-R9bXspE"> Datasheet</a></td>
+    <tr>    
+  </tbody>
+</table>
 
 </details>
 
 <details>
 <summary><h2>Motor Selection</h2></summary>
 
-| Component | Image | Advantages | Disadvantages | Link |
-|---|---:|---|---|:--:|
-| **NEMA-17 Stepper** | ![nema17](../Images/nema17.png){ width="130" } |
-<ul>
-<li>Widely available, predictable torque</li>
-</ul> |
-<ul>
-<li>Lower top speed than DC motors</li>
-</ul> | [Example](https://www.pololu.com/) |
+<table>
+  <thead>
+    <tr>
+      <th>Component</th>
+      <th>Image</th>
+      <th>Advantages</th>
+      <th>Disadvantages</th>
+      <th>Link</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>324</strong></td>
+      <td><img src="../Images/Mo1.webp" width="130"/></td>
+      <td>
+        Write a few pros
+      </td>
+      <td>
+        Write a few cons
+      </td>
+      <td><a href="https://www.digikey.com/en/products/detail/adafruit-industries-llc/324/5022791">Datasheet</a></td>
+    </tr>
+    <tr>
+      <td><strong>09238</strong></td>
+      <td><img src="../Images/Mo2.jpg" width="130"/></td>
+      <td>
+        Write a few pros
+      </td>
+      <td>
+        Write a few cons
+      </td>
+      <td><a href="https://www.digikey.com/en/products/detail/sparkfun-electronics/09238/5318747?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLljrokQXUJCxtzhlniK662PLm&gclid=CjwKCAjw_-3GBhAYEiwAjh9fUDY4mAaD5cVICg9DJ3dkp2tuUlxmwplDsnTPRYFdyZxFki9ZKPAaPRoC-vIQAvD_BwE"> Datasheet</a></td>
+    <tr>    
+    <tr>
+      <td><strong>918</strong></td>
+      <td><img src="../Images/Mo3.webp" width="130"/></td>
+      <td>
+        Write a few pros
+      </td>
+      <td>
+        Write a few cons
+      </td>
+      <td><a href="https://www.digikey.com/en/products/detail/adafruit-industries-llc/918/5629415?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLljrokQXUJCxtzhlniK662PLm&gclid=CjwKCAjw_-3GBhAYEiwAjh9fUGxSH1X5xyUS0WGCDu5T2N96eoFQoZ9U3X1nPWaGIcAxK6H59jPM1BoC19wQAvD_BwE"> Datasheet</a></td>
+    <tr>    
+  </tbody>
+</table>
 
 </details>
 
-  </div>
-</div>
