@@ -47,7 +47,7 @@ title: Component Selection
         - More expensive than ESP32 or Arduino<br/>
         - Overkill for simple sensor/motor tasks 
       </td>
-      <td><a href="(https://www.sparkfun.com/raspberry-pi-5-16gb.html?src=raspberrypi)"> Datasheet</a></td>
+      <td><a href="https://www.sparkfun.com/raspberry-pi-5-16gb.html?src=raspberrypi"> Datasheet</a></td>
     </tr>    
     <tr>
       <td><strong>Arduino Uno - R3</strong></td>
@@ -279,7 +279,7 @@ title: Component Selection
         - More expensive than the 324
       </td>
       <td><a href="https://www.digikey.com/en/products/detail/sparkfun-electronics/09238/5318747?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLljrokQXUJCxtzhlniK662PLm&gclid=CjwKCAjw_-3GBhAYEiwAjh9fUDY4mAaD5cVICg9DJ3dkp2tuUlxmwplDsnTPRYFdyZxFki9ZKPAaPRoC-vIQAvD_BwE"> Datasheet</a></td>
-    <tr>    
+    </tr>    
     <tr>
       <td><strong>918</strong></td>
       <td><img src="../Images/Mo3.webp" width="130"/></td>
@@ -290,7 +290,7 @@ title: Component Selection
         Write a few cons
       </td>
       <td><a href="https://www.digikey.com/en/products/detail/adafruit-industries-llc/918/5629415?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLljrokQXUJCxtzhlniK662PLm&gclid=CjwKCAjw_-3GBhAYEiwAjh9fUGxSH1X5xyUS0WGCDu5T2N96eoFQoZ9U3X1nPWaGIcAxK6H59jPM1BoC19wQAvD_BwE"> Datasheet</a></td>
-    <tr>    
+    </tr>    
   </tbody>
 </table>
 
