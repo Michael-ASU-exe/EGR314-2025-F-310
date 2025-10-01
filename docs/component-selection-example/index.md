@@ -4,6 +4,9 @@ title: Component Selection
 
 # Major Hardware Selection
 
+<div class="full-bleed">
+  <div class="inner">
+
 <details>
 <summary><h2>Microcontroller Selection</h2></summary>
 
@@ -45,7 +48,7 @@ title: Component Selection
        Overkill for simple sensor/motor tasks. 
       </td>
       <td><a href="(https://www.sparkfun.com/raspberry-pi-5-16gb.html?src=raspberrypi)"> Datasheet</a></td>
-    <tr>    
+    </tr>    
     <tr>
       <td><strong>Arduino Uno - R3</strong></td>
       <td><img src="../Images/Arduino Uno - R3.png" width="130"/></td>
@@ -59,7 +62,7 @@ title: Component Selection
         No built-in Wi-Fi or Bluetooth<br/>
       </td>
       <td><a href="https://www.sparkfun.com/arduino-uno-r3.html"> Datasheet</a></td>
-    <tr>    
+    </tr>    
   </tbody>
 </table>
 
@@ -105,7 +108,7 @@ title: Component Selection
         will be taller
       </td>
       <td><a href="https://www.digikey.com/en/products/detail/stmicroelectronics/LF33CV/1038546"> Datasheet</a></td>
-    <tr>    
+    </tr>    
     <tr>
       <td><strong>L4931-3.3</strong></td>
       <td><img src="../Images/P3.jpg" width="130"/></td>
@@ -118,7 +121,7 @@ title: Component Selection
         not as efficient as it is linear
       </td>
       <td><a href="https://www.adafruit.com/product/2166?srsltid=AfmBOoqWcCuJELxtJVzFxIRpEGNKCCuCQmUOuTcbpZCLRW1pGNdhxgWv5Fo"> Datasheet</a></td>
-    <tr>    
+    </tr>    
   </tbody>
 </table>
 
@@ -164,7 +167,7 @@ title: Component Selection
         operates at a lower A
       </td>
       <td><a href="https://www.digikey.com/en/products/detail/sensirion-ag/SHT21-TR-0-4KS/5872245"> Datasheet</a></td>
-    <tr>    
+    </tr>    
     <tr>
       <td><strong>ST0248</strong></td>
       <td><img src="../Images/HS3.jpg" width="130"/></td>
@@ -177,7 +180,7 @@ title: Component Selection
         will take up lots of room on PCB
       </td>
       <td><a href="https://www.digikey.com/en/products/detail/sunfounder/ST0248/22116817?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLljrokQXUJCxtzhlniK662PLm&gclid=CjwKCAjw_-3GBhAYEiwAjh9fUFkM3ipS1jjoTkSoJ8_jWRjEfiZhy1Oncc5SdL8zCaNNATmc9wrYOxoC4T8QAvD_BwE"> Datasheet</a></td>
-    <tr>    
+    </tr>    
   </tbody>
 </table>
 
@@ -222,7 +225,7 @@ title: Component Selection
         no heat sink
       </td>
       <td><a href="https://www.sparkfun.com/h-bridge-motor-driver-1a.html"> Datasheet</a></td>
-    <tr>    
+    </tr>    
     <tr>
       <td><strong>Dual H-Bridge Motor</strong></td>
       <td><img src="../Images/Dr3.jpg" width="130"/></td>
@@ -235,7 +238,7 @@ title: Component Selection
         no heat sink
       </td>
       <td><a href="https://www.adafruit.com/product/807?srsltid=AfmBOoouuligJwookAO5PMbB88Uj6VmlJy2_OE97h6Vdu7grntC-R9bXspE"> Datasheet</a></td>
-    <tr>    
+    </tr>    
   </tbody>
 </table>
 
@@ -293,3 +296,5 @@ title: Component Selection
 
 </details>
 
+ </div>
+</div>
