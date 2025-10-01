@@ -5,7 +5,7 @@ title: Component Selection
 # Major Hardware Selection
 
 <div class="full-bleed">
-  <div class="inner">
+ <div class="inner">
 
 <details>
 <summary><h2>Microcontroller Selection</h2></summary>
