@@ -1,5 +1,5 @@
 ---
-title: Component Selection
+title: Component Selection 
 ---
 
 # Major Hardware Selection
@@ -25,13 +25,15 @@ title: Component Selection
       <td><strong>ESP32-WROOM</strong></td>
       <td><img src="../Images/ESP32.png" width="130"/></td>
       <td>
-        - Currently using in class<br/>
+        - Built in WiFi & Bluetooth<br/>
         - Plenty of docs/examples<br/>
-        - Good peripherals for class labs
+        - Good peripherals for class labs<br/>
+        - Low power modes for IoT
       </td>
       <td>
         - Built in antenna<br/>
-        - Lower library ecosystem than ARM
+        - Lower library ecosystem than ARM<br/>
+        - Higher power consumption in comparison to other MCUs
       </td>
       <td><a href="https://www.digikey.com/en/products/detail/espressif-systems/ESP32-DEVKITC-32UE/12091813">Datasheet</a></td>
     </tr>
@@ -40,11 +42,13 @@ title: Component Selection
       <td><img src="../Images/Raspberry.png" width="130"/></td>
       <td>
         - Large community and libraries<br/>
-        - Can handle advanced tasks like AI and image processing
+        - Can handle advanced tasks like AI and image processing<br/>
+        - Considerably low power consumption
       </td>
       <td>
         - More power hungry<br/>
         - More expensive than ESP32 or Arduino<br/>
+        - No built in WiFi/Bluetooth<br/>
         - Overkill for simple sensor/motor tasks 
       </td>
       <td><a href="https://www.sparkfun.com/raspberry-pi-5-16gb.html?src=raspberrypi"> Datasheet</a></td>
@@ -59,10 +63,16 @@ title: Component Selection
       </td>
       <td>
         - Limited processing power<br/>
-        - No built-in Wi-Fi or Bluetooth
+        - No built-in Wi-Fi or Bluetooth<br/>
+        - Fewer GPIOs in comparison to the previous options
       </td>
       <td><a href="https://www.sparkfun.com/arduino-uno-r3.html"> Datasheet</a></td>
     </tr>    
+    <tr>
+      <td colspan="5" style="text-align:center; font-weight:bold; background:#f0f0f0;">
+        ✅ Our Choice: <u>ESP32-WROOM</u> – The team selected the ESP32-WROOM because it offers built-in Wi-Fi and Bluetooth, eliminating the need for external communication modules and reducing overall system complexity. Compared to the Raspberry Pi Pico and Arduino Uno R3, it delivers significantly higher processing power and more versatile peripherals, making it better suited for our project’s performance and connectivity requirements. Its balance of cost, features, and low-power capabilities makes it the most efficient choice amongst the three.
+      </td>
+    </tr>
   </tbody>
 </table>
 
@@ -122,6 +132,11 @@ title: Component Selection
       </td>
       <td><a href="https://www.adafruit.com/product/2166?srsltid=AfmBOoqWcCuJELxtJVzFxIRpEGNKCCuCQmUOuTcbpZCLRW1pGNdhxgWv5Fo"> Datasheet</a></td>
     </tr>    
+    <tr>
+      <td colspan="5" style="text-align:center; font-weight:bold; background:#f0f0f0;">
+        ✅ Our Choice: <u>LM2575D2T-3.3R4G</u> – Required part, proven in lab use, and reliable with heat dissipation.
+      </td>
+    </tr>
   </tbody>
 </table>
 
@@ -181,6 +196,11 @@ title: Component Selection
       </td>
       <td><a href="https://www.digikey.com/en/products/detail/sunfounder/ST0248/22116817?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLljrokQXUJCxtzhlniK662PLm&gclid=CjwKCAjw_-3GBhAYEiwAjh9fUFkM3ipS1jjoTkSoJ8_jWRjEfiZhy1Oncc5SdL8zCaNNATmc9wrYOxoC4T8QAvD_BwE"> Datasheet</a></td>
     </tr>    
+    <tr>
+      <td colspan="5" style="text-align:center; font-weight:bold; background:#f0f0f0;">
+        ✅ Our Choice: <u>HPP845E031R4</u> – Surface mount option with heat sink, suitable for long-term use.
+      </td>
+    </tr>
   </tbody>
 </table>
 
@@ -239,6 +259,11 @@ title: Component Selection
       </td>
       <td><a href="https://www.adafruit.com/product/807?srsltid=AfmBOoouuligJwookAO5PMbB88Uj6VmlJy2_OE97h6Vdu7grntC-R9bXspE"> Datasheet</a></td>
     </tr>    
+    <tr>
+      <td colspan="5" style="text-align:center; font-weight:bold; background:#f0f0f0;">
+        ✅ Our Choice: <u>DRV8825PWPR</u> – Surface mount driver with heat sink, most reliable for motor control.
+      </td>
+    </tr>
   </tbody>
 </table>
 
@@ -248,8 +273,6 @@ title: Component Selection
 <summary><h2>Motor Selection</h2></summary>
 
 <table> 
-
-  <!-- Force identical column widths -->
   <colgroup>
     <col style="width:18%">
     <col style="width:18%">
@@ -257,7 +280,6 @@ title: Component Selection
     <col style="width:28%">
     <col style="width:8%">
   </colgroup>
-
   <thead>
     <tr>
       <th>Component</th>
@@ -273,11 +295,11 @@ title: Component Selection
       <td><img src="../Images/Mo1.webp" width="130"/></td>
       <td>
         - Cheapest of the motors<br/>
-        - something
+        - has a good data sheet
       </td>
       <td>
-        - Write a few cons<br/>
-        - something
+        Limited torque<br/>
+        At higher RPM, the stepper has resonance issues
       </td>
       <td><a href="https://www.digikey.com/en/products/detail/adafruit-industries-llc/324/5022791">Datasheet</a></td>
     </tr>
@@ -285,12 +307,12 @@ title: Component Selection
       <td><strong>MOT-I-81619</strong></td>
       <td><img src="../Images/MOT.png" width="130"/></td>
       <td>
-        - Write a few pros<br/>
-        - something
+        Decent documentation<br/>
+        Easier for mechanical integration
       </td>
       <td>
-        - More expensive than the 324<br/>
-        - something
+        More expensive than the 324<br/>
+        Torque falls off at higher RPMs
       </td>
       <td><a href="https://www.digikey.com/en/products/detail/sparkfun-electronics/09238/5318747?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLljrokQXUJCxtzhlniK662PLm&gclid=CjwKCAjw_-3GBhAYEiwAjh9fUDY4mAaD5cVICg9DJ3dkp2tuUlxmwplDsnTPRYFdyZxFki9ZKPAaPRoC-vIQAvD_BwE"> Datasheet</a></td>
     </tr>    
@@ -298,15 +320,20 @@ title: Component Selection
       <td><strong>918</strong></td>
       <td><img src="../Images/Mo3.webp" width="130"/></td>
       <td>
-        - Write a few pros<br/>
-        - something 
+        can offer more torque<br/>
+        Good heat displacement  
       </td>
       <td>
-        - Write a few cons<br/>
-        - something
+        more complex to program<br/>
+        mounting may be more difficult
       </td>
       <td><a href="https://www.digikey.com/en/products/detail/adafruit-industries-llc/918/5629415?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLljrokQXUJCxtzhlniK662PLm&gclid=CjwKCAjw_-3GBhAYEiwAjh9fUGxSH1X5xyUS0WGCDu5T2N96eoFQoZ9U3X1nPWaGIcAxK6H59jPM1BoC19wQAvD_BwE"> Datasheet</a></td>
     </tr>    
+    <tr>
+      <td colspan="5" style="text-align:center; font-weight:bold; background:#f0f0f0;">
+        ✅ Our Choice: <u>324</u> – Cheapest option with solid datasheet and sufficient performance for our project.
+      </td>
+    </tr>
   </tbody>
 </table>
 
