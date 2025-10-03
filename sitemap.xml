@@ -11,6 +11,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://embedded-systems-design.github.io/template_report/Schematic/</loc>
+         <lastmod>2025-10-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://embedded-systems-design.github.io/template_report/Team%20Block%20Diagram/</loc>
          <lastmod>2025-10-03</lastmod>
          <changefreq>daily</changefreq>
