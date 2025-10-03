@@ -63,6 +63,11 @@ title: Component Selection
       </td>
       <td><a href="https://www.sparkfun.com/arduino-uno-r3.html"> Datasheet</a></td>
     </tr>    
+    <tr>
+      <td colspan="5" style="text-align:center; font-weight:bold; background:#f0f0f0;">
+        ✅ Our Choice: <u>ESP32-WROOM</u> – Best balance of cost, features, and documentation for our needs.
+      </td>
+    </tr>
   </tbody>
 </table>
 
@@ -122,6 +127,11 @@ title: Component Selection
       </td>
       <td><a href="https://www.adafruit.com/product/2166?srsltid=AfmBOoqWcCuJELxtJVzFxIRpEGNKCCuCQmUOuTcbpZCLRW1pGNdhxgWv5Fo"> Datasheet</a></td>
     </tr>    
+    <tr>
+      <td colspan="5" style="text-align:center; font-weight:bold; background:#f0f0f0;">
+        ✅ Our Choice: <u>LM2575D2T-3.3R4G</u> – Required part, proven in lab use, and reliable with heat dissipation.
+      </td>
+    </tr>
   </tbody>
 </table>
 
@@ -181,6 +191,11 @@ title: Component Selection
       </td>
       <td><a href="https://www.digikey.com/en/products/detail/sunfounder/ST0248/22116817?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLljrokQXUJCxtzhlniK662PLm&gclid=CjwKCAjw_-3GBhAYEiwAjh9fUFkM3ipS1jjoTkSoJ8_jWRjEfiZhy1Oncc5SdL8zCaNNATmc9wrYOxoC4T8QAvD_BwE"> Datasheet</a></td>
     </tr>    
+    <tr>
+      <td colspan="5" style="text-align:center; font-weight:bold; background:#f0f0f0;">
+        ✅ Our Choice: <u>HPP845E031R4</u> – Surface mount option with heat sink, suitable for long-term use.
+      </td>
+    </tr>
   </tbody>
 </table>
 
@@ -239,6 +254,11 @@ title: Component Selection
       </td>
       <td><a href="https://www.adafruit.com/product/807?srsltid=AfmBOoouuligJwookAO5PMbB88Uj6VmlJy2_OE97h6Vdu7grntC-R9bXspE"> Datasheet</a></td>
     </tr>    
+    <tr>
+      <td colspan="5" style="text-align:center; font-weight:bold; background:#f0f0f0;">
+        ✅ Our Choice: <u>DRV8825PWPR</u> – Surface mount driver with heat sink, most reliable for motor control.
+      </td>
+    </tr>
   </tbody>
 </table>
 
@@ -248,8 +268,6 @@ title: Component Selection
 <summary><h2>Motor Selection</h2></summary>
 
 <table> 
-
-  <!-- Force identical column widths -->
   <colgroup>
     <col style="width:18%">
     <col style="width:18%">
@@ -257,7 +275,6 @@ title: Component Selection
     <col style="width:28%">
     <col style="width:8%">
   </colgroup>
-
   <thead>
     <tr>
       <th>Component</th>
@@ -307,6 +324,11 @@ title: Component Selection
       </td>
       <td><a href="https://www.digikey.com/en/products/detail/adafruit-industries-llc/918/5629415?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLljrokQXUJCxtzhlniK662PLm&gclid=CjwKCAjw_-3GBhAYEiwAjh9fUGxSH1X5xyUS0WGCDu5T2N96eoFQoZ9U3X1nPWaGIcAxK6H59jPM1BoC19wQAvD_BwE"> Datasheet</a></td>
     </tr>    
+    <tr>
+      <td colspan="5" style="text-align:center; font-weight:bold; background:#f0f0f0;">
+        ✅ Our Choice: <u>324</u> – Cheapest option with solid datasheet and sufficient performance for our project.
+      </td>
+    </tr>
   </tbody>
 </table>
 
