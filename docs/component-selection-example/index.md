@@ -25,13 +25,15 @@ title: Component Selection
       <td><strong>ESP32-WROOM</strong></td>
       <td><img src="../Images/ESP32.png" width="130"/></td>
       <td>
-        - Currently using in class<br/>
+        - Built in WiFi & Bluetooth<br/>
         - Plenty of docs/examples<br/>
         - Good peripherals for class labs
+        - Low power modes for IoT
       </td>
       <td>
         - Built in antenna<br/>
         - Lower library ecosystem than ARM
+        - Higher power consumption in comparison to other MCUs
       </td>
       <td><a href="https://www.digikey.com/en/products/detail/espressif-systems/ESP32-DEVKITC-32UE/12091813">Datasheet</a></td>
     </tr>
@@ -41,10 +43,12 @@ title: Component Selection
       <td>
         - Large community and libraries<br/>
         - Can handle advanced tasks like AI and image processing
+        - Considerably low power consumption
       </td>
       <td>
         - More power hungry<br/>
         - More expensive than ESP32 or Arduino<br/>
+        - No built in WiFi/Bluetooth
         - Overkill for simple sensor/motor tasks 
       </td>
       <td><a href="https://www.sparkfun.com/raspberry-pi-5-16gb.html?src=raspberrypi"> Datasheet</a></td>
@@ -60,12 +64,13 @@ title: Component Selection
       <td>
         - Limited processing power<br/>
         - No built-in Wi-Fi or Bluetooth
+        - Fewer GPIOs in comparison to the previous options
       </td>
       <td><a href="https://www.sparkfun.com/arduino-uno-r3.html"> Datasheet</a></td>
     </tr>    
     <tr>
       <td colspan="5" style="text-align:center; font-weight:bold; background:#f0f0f0;">
-        ✅ Our Choice: <u>ESP32-WROOM</u> – Best balance of cost, features, and documentation for our needs.
+        ✅ Our Choice: <u>ESP32-WROOM</u> – The team selected the ESP32-WROOM because it offers built-in Wi-Fi and Bluetooth, eliminating the need for external communication modules and reducing overall system complexity. Compared to the Raspberry Pi Pico and Arduino Uno R3, it delivers significantly higher processing power and more versatile peripherals, making it better suited for our project’s performance and connectivity requirements. Its balance of cost, features, and low-power capabilities makes it the most efficient choice amongst the three.
       </td>
     </tr>
   </tbody>
