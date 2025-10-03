@@ -90,7 +90,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#schematic-pdf" class="md-skip">
+        <a href="#schematic" class="md-skip">
           Skip to content
         </a>
       
@@ -516,9 +516,9 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#schematic-pdf" class="md-nav__link">
+  <a href="#schematic" class="md-nav__link">
     <span class="md-ellipsis">
-      Schematic PDF
+      Schematic
     </span>
   </a>
   
@@ -771,9 +771,9 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#schematic-pdf" class="md-nav__link">
+  <a href="#schematic" class="md-nav__link">
     <span class="md-ellipsis">
-      Schematic PDF
+      Schematic
     </span>
   </a>
   
@@ -804,8 +804,14 @@
 
   <h1>Schematic</h1>
 
-<h2 id="schematic-pdf">Schematic PDF</h2>
-<p><a href="../Images/Main.pdf">📄 View full schematic (PDF)</a></p>
+<h2 id="schematic">Schematic</h2>
+<!-- Inline PDF viewer on the page -->
+<div style="height:85vh;">
+  <iframe src="Images/Main.pdf#view=FitH" width="100%" height="100%" style="border:1px solid #ddd;"></iframe>
+</div>
+
+<!-- Optional fallback link in case a browser blocks inline PDFs -->
+<p><a href="Images/Main.pdf" target="_blank" rel="noopener">Open full-size PDF in new tab</a></p>
 
 
 
