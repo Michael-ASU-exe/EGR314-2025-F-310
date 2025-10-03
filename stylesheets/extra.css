@@ -89,18 +89,3 @@ ul ul ul li::marker {
   table-layout: fixed;
 }
 
-/* Consistent proportions for 5-column tables under .inner */
-.md-typeset .inner table thead th:nth-child(1),
-.md-typeset .inner table tbody td:nth-child(1) { width: 18%; }
-
-.md-typeset .inner table thead th:nth-child(2),
-.md-typeset .inner table tbody td:nth-child(2) { width: 18%; }
-
-.md-typeset .inner table thead th:nth-child(3),
-.md-typeset .inner table tbody td:nth-child(3) { width: 28%; }
-
-.md-typeset .inner table thead th:nth-child(4),
-.md-typeset .inner table tbody td:nth-child(4) { width: 28%; }
-
-.md-typeset .inner table thead th:nth-child(5),
-.md-typeset .inner table tbody td:nth-child(5) { width: 8%; }
