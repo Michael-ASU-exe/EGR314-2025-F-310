@@ -27,12 +27,12 @@ title: Component Selection
       <td>
         - Built in WiFi & Bluetooth<br/>
         - Plenty of docs/examples<br/>
-        - Good peripherals for class labs
+        - Good peripherals for class labs<br/>
         - Low power modes for IoT
       </td>
       <td>
         - Built in antenna<br/>
-        - Lower library ecosystem than ARM
+        - Lower library ecosystem than ARM<br/>
         - Higher power consumption in comparison to other MCUs
       </td>
       <td><a href="https://www.digikey.com/en/products/detail/espressif-systems/ESP32-DEVKITC-32UE/12091813">Datasheet</a></td>
@@ -42,13 +42,13 @@ title: Component Selection
       <td><img src="../Images/Raspberry.png" width="130"/></td>
       <td>
         - Large community and libraries<br/>
-        - Can handle advanced tasks like AI and image processing
+        - Can handle advanced tasks like AI and image processing<br/>
         - Considerably low power consumption
       </td>
       <td>
         - More power hungry<br/>
         - More expensive than ESP32 or Arduino<br/>
-        - No built in WiFi/Bluetooth
+        - No built in WiFi/Bluetooth<br/>
         - Overkill for simple sensor/motor tasks 
       </td>
       <td><a href="https://www.sparkfun.com/raspberry-pi-5-16gb.html?src=raspberrypi"> Datasheet</a></td>
@@ -63,7 +63,7 @@ title: Component Selection
       </td>
       <td>
         - Limited processing power<br/>
-        - No built-in Wi-Fi or Bluetooth
+        - No built-in Wi-Fi or Bluetooth<br/>
         - Fewer GPIOs in comparison to the previous options
       </td>
       <td><a href="https://www.sparkfun.com/arduino-uno-r3.html"> Datasheet</a></td>
