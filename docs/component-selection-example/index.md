@@ -68,7 +68,7 @@ title: Component Selection
       </td>
       <td><a href="https://www.sparkfun.com/arduino-uno-r3.html"> Datasheet</a></td>
     </tr>
-    <h3>Our selection</h3>
+<h3>Our selection</h3>
 <table>
   <colgroup>
     <col style="width:18%">
