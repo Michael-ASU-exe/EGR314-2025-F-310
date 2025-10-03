@@ -67,10 +67,27 @@ title: Component Selection
         - Fewer GPIOs in comparison to the previous options
       </td>
       <td><a href="https://www.sparkfun.com/arduino-uno-r3.html"> Datasheet</a></td>
-    </tr>    
+    </tr>
+    <h3>Our selection</h3>
+<table>
+  <colgroup>
+    <col style="width:18%">
+    <col style="width:18%">
+    <col style="width:64%">
+  </colgroup>
+  <thead>
     <tr>
-      <td colspan="5" style="text-align:center; font-weight:bold; background:#f0f0f0;">
-        ✅ Our Choice: <u>ESP32-WROOM</u> – The team selected the ESP32-WROOM because it offers built-in Wi-Fi and Bluetooth, eliminating the need for external communication modules and reducing overall system complexity. Compared to the Raspberry Pi Pico and Arduino Uno R3, it delivers significantly higher processing power and more versatile peripherals, making it better suited for our project’s performance and connectivity requirements. Its balance of cost, features, and low-power capabilities makes it the most efficient choice amongst the three.
+      <th>Component</th>
+      <th>Image</th>
+      <th>Justification</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>ESP32-WROOM</strong></td>
+      <td><img src="../Images/ESP32.png" width="130" /></td>
+      <td>
+        Our Choice: <u>ESP32-WROOM</u> – The team selected the ESP32-WROOM because it offers built-in Wi-Fi and Bluetooth, eliminating the need for external communication modules and reducing overall system complexity. Compared to the Raspberry Pi Pico and Arduino Uno R3, it delivers significantly higher processing power and more versatile peripherals, making it better suited for our project’s performance and connectivity requirements. Its balance of cost, features, and low-power capabilities makes it the most efficient choice amongst the three.
       </td>
     </tr>
   </tbody>
