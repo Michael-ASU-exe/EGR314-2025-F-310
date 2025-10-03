@@ -69,33 +69,6 @@ title: Component Selection
       <td><a href="https://www.sparkfun.com/arduino-uno-r3.html"> Datasheet</a></td>
     </tr>
     <!-- end of your last comparison row -->
-</tr>
-</tbody>
-</table>
-
-<h3 class="our-selection">Our selection</h3>
-
-<table>
-  <colgroup>
-    <col style="width:18%">
-    <col style="width:18%">
-    <col style="width:64%">
-  </colgroup>
-  <thead>
-    <tr>
-      <th>Component</th>
-      <th>Image</th>
-      <th>Justification</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>ESP32-WROOM</strong></td>
-      <td><img src="../Images/ESP32.png" width="130"/></td>
-      <td>
-        Our Choice: <u>ESP32-WROOM</u> — …(your reasoning)…
-      </td>
-    </tr>
   </tbody>
 </table>
 
