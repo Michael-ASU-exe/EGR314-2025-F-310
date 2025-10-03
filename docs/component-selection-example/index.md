@@ -1,5 +1,5 @@
 ---
-title: Component Selection
+title: Component Selection 
 ---
 
 # Major Hardware Selection
