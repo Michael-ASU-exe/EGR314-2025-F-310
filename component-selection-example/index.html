@@ -984,12 +984,16 @@
       <td><strong>DRV8825PWPR</strong></td>
       <td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../Images/DRV8825.png" data-desc-position="bottom"><img src="../Images/DRV8825.png" width="130"></a></td>
       <td>
-        - Has a heat sink<br>
-        - Is surface mount 
+        - Wide voltage range of 8.2V - 45V.<br>
+        - Compatible with many motor types and supply systems.<br>
+        - High output current for reliable torque delivery.<br>
+        - Simple STEP/DIR interface makes it easy to control from microcontrollers like the ESP32.<br>
+        - Well-documented and widely supported in the maker and robotics communites.
       </td>
       <td>
-        - Overkill for 1 motor<br>
-        - Will take up lots of room on board, only needing 4 of its 28 pins
+        - Requires external sense resitors and tuning for current control<br>
+        - Limited to 1/32 microstepping which is less precise than the L6470H.<br>
+        - Needs proper PCB heat dissipation for high current loads.
       </td>
       <td><a href="https://www.digikey.com/en/products/detail/texas-instruments/DRV8825PWPR/2695909"><img src="../Images/Digikey.png" alt="Datasheet Link" width="60" style="vertical-align:middle;"></a></td>
     </tr>
@@ -997,12 +1001,16 @@
       <td><strong>L6470H</strong></td>
       <td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../Images/L6470H.png" data-desc-position="bottom"><img src="../Images/L6470H.png" width="130"></a></td>
       <td>
-        - Have used in a previous lab<br>
-        - Fewer pins to worry about
+        - Advanced motion control engine<br>
+        - Manages acceleration, deceleration, speed, and position autonomously via SPI commands.<br>
+        - High microstepping resolution(1/128) will enable a smoother and quiter motor operation.<br>
+        - Sensorless stall detection for position awareness.<br>
       </td>
       <td>
-        - Is through hole<br>
-        - No heat sink
+        - Complex setup.<br>
+        - Higher cost and component count than basic drivers.<br>
+        - Not suited for quick prototyping.<br>
+        - Slightly higher quiescent current draw than DRV8825.
       </td>
       <td><a href="https://www.digikey.com/en/products/detail/stmicroelectronics/l6470h/2682927"><img src="../Images/Digikey.png" alt="Datasheet Link" width="60" style="vertical-align:middle;"></a></td>
     </tr>    
@@ -1010,12 +1018,15 @@
       <td><strong>Fan8100N</strong></td>
       <td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../Images/FAN8100N.png" data-desc-position="bottom"><img src="../Images/FAN8100N.png" width="130"></a></td>
       <td>
-        - Have used in a previous lab<br>
-        - Fewer pins to worry about
+        - Dual-channel H-bridge can drive two DC motors or one motor in parallel up to 3A.<br>
+        - Low-voltage operation, which makes it ideal for battery-powered systems.<br>
+        - Simple Forward/Reverse/Brake control logic.<br>
+        - With its low saturation voltage, it is guaranteed to be efficient at low voltages.
       </td>
       <td>
-        - Is through hole<br>
-        - No heat sink
+        - Designed for DC motors, not stepper motors.<br>
+        - Limited voltage range with a max of 9V.<br>
+        - Lower power handling than the DRV8825 or L6470H
       </td>
       <td><a href="https://www.digikey.com/en/products/detail/rochester-electronics-llc/FAN8100N/11558200"><img src="../Images/Digikey.png" alt="Datasheet Link" width="60" style="vertical-align:middle;"></a></td>
     </tr>    
@@ -1040,9 +1051,9 @@
   <tbody>
     <tr>
       <td><strong>DRV8825PWPR</strong></td>
-      <td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../Images/HS1.webp" data-desc-position="bottom"><img src="../Images/HS1.webp" width="130"></a></td>
+      <td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../Images/DRV8825.png" data-desc-position="bottom"><img src="../Images/DRV8825.png" width="130"></a></td>
       <td>
-        Our Choice: <u>DRV8825PWPR</u> – 
+        Our Choice: <u>DRV8825PWPR</u> –  Our team decided that the DRV8825 is the ideal motor driver for our project. It provides a balance of cost, simplicity, and performance. It supports up to 2.5 A per phase with microstepping up to 1/32, providing smooth and precise motion control without complex configuration. Its STEP/DIR interface integrates easily with the ESP32, which can minimize programming and wiring effort. At a typical cost around $5-$8, it delivers strong reliability and efficiency at a fraction of the price.
       </td>
     </tr>
   </tbody>
