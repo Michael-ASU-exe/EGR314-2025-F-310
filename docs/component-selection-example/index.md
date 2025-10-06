@@ -302,7 +302,7 @@ title: Component Selection
   <tbody>
     <tr>
       <td><strong>DRV8825PWPR</strong></td>
-      <td><img src="../Images/Dr1.webp" width="130"/></td>
+      <td><img src="../Images/DRV8825.png" width="130"/></td>
       <td>
         - Has a heat sink<br/>
         - Is surface mount 
@@ -311,11 +311,11 @@ title: Component Selection
         - Overkill for 1 motor<br/>
         - Will take up lots of room on board, only needing 4 of its 28 pins
       </td>
-      <td><a href="https://www.digikey.com/en/products/detail/texas-instruments/DRV8825PWPR/2695909">Datasheet</a></td>
+      <td><a href="https://www.digikey.com/en/products/detail/texas-instruments/DRV8825PWPR/2695909"><img src="../Images/Digikey.png" alt="Datasheet Link" width="60" style="vertical-align:middle;"></a></td>
     </tr>
     <tr>
-      <td><strong>H-Bridge Motor</strong></td>
-      <td><img src="../Images/Dr2.webp" width="130"/></td>
+      <td><strong>L6470H</strong></td>
+      <td><img src="../Images/L6470H.png" width="130"/></td>
       <td>
         - Have used in a previous lab<br/>
         - Fewer pins to worry about
@@ -324,11 +324,11 @@ title: Component Selection
         - Is through hole<br/>
         - No heat sink
       </td>
-      <td><a href="https://www.sparkfun.com/h-bridge-motor-driver-1a.html"> Datasheet</a></td>
+      <td><a href="https://www.digikey.com/en/products/detail/stmicroelectronics/l6470h/2682927"><img src="../Images/Digikey.png" alt="Datasheet Link" width="60" style="vertical-align:middle;"></a></td>
     </tr>    
     <tr>
-      <td><strong>Dual H-Bridge Motor</strong></td>
-      <td><img src="../Images/Dr3.jpg" width="130"/></td>
+      <td><strong>Fan8100N</strong></td>
+      <td><img src="../Images/FAN8100N.png" width="130"/></td>
       <td>
         - Have used in a previous lab<br/>
         - Fewer pins to worry about
@@ -337,11 +337,32 @@ title: Component Selection
         - Is through hole<br/>
         - No heat sink
       </td>
-      <td><a href="https://www.adafruit.com/product/807?srsltid=AfmBOoouuligJwookAO5PMbB88Uj6VmlJy2_OE97h6Vdu7grntC-R9bXspE"> Datasheet</a></td>
+      <td><a href="https://www.digikey.com/en/products/detail/rochester-electronics-llc/FAN8100N/11558200"><img src="../Images/Digikey.png" alt="Datasheet Link" width="60" style="vertical-align:middle;"></a></td>
     </tr>    
+  </tbody>
+</table>
+
+<h3>Our selection</h3>
+
+<table>
+  <colgroup>
+    <col style="width:18%">
+    <col style="width:18%">
+    <col style="width:64%">
+  </colgroup>
+  <thead>
     <tr>
-      <td colspan="5" style="text-align:center; font-weight:bold; background:#f0f0f0;">
-        ✅ Our Choice: <u>DRV8825PWPR</u> – Surface mount driver with heat sink, most reliable for motor control.
+      <th>Component</th>
+      <th>Image</th>
+      <th>Justification</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>DRV8825PWPR</strong></td>
+      <td><img src="../Images/HS1.webp" width="130" /></td>
+      <td>
+        Our Choice: <u>DRV8825PWPR</u> – 
       </td>
     </tr>
   </tbody>
