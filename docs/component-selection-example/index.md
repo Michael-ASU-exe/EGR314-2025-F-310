@@ -38,7 +38,7 @@ title: Component Selection
       <td><a href="https://www.digikey.com/en/products/detail/espressif-systems/ESP32-DEVKITC-32UE/12091813"><img src="../Images/Digikey.png" alt="Datasheet Link" width="60" style="vertical-align:middle;"></a></td>
     </tr>
     <tr>
-      <td><strong>Raspberry Pi Pico</strong></td>
+      <td><strong>Raspberry Pi 5</strong></td>
       <td><img src="../Images/Raspberry.png" width="130"/></td>
       <td>
         - Large community and libraries<br/>
