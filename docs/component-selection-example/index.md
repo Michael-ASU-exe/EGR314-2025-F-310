@@ -128,7 +128,7 @@ title: Component Selection
         - Switching EMI noise so how we design the layout on the PCB and decoupling are critical.<br/>
         - Slightly more complex design. 
       </td>
-      <td><a href="https://www.digikey.com/en/products/detail/onsemi/LM2575D2T-3-3R4G/1476688" target="_blank"><img src="../Images/Digikey.png" alt="Datasheet Link" width="30" style="vertical-align:middle;"></a>
+      <td><a href="https://www.digikey.com/en/products/detail/onsemi/LM2575D2T-3-3R4G/1476688" target="_blank"><img src="../Images/Digikey.png" alt="Datasheet Link" width="45" style="vertical-align:middle;"></a>
       </td>
     </tr>
     <tr>
