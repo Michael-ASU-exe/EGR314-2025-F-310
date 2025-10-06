@@ -826,7 +826,7 @@
         - Its Linear topology makes it inefficient for high input/output differences. <br>
         - Will run hot under high current or a large voltage drop.
       </td>
-      <td><a href="https://www.digikey.com/en/products/detail/stmicroelectronics/LF33ABDT-TR/1038540?s=N4IgTCBcDaIDIDEDMSCCAhAIgFQLTYCUQBdAXyA"> Datasheet</a></td>
+      <td><a href="https://www.digikey.com/en/products/detail/stmicroelectronics/LF33ABDT-TR/1038540?s=N4IgTCBcDaIDIDEDMSCCAhAIgFQLTYCUQBdAXyA"><img src="../Images/Digikey.png" alt="Datasheet Link" width="60" style="vertical-align:middle;"></a></td>
     </tr>    
     <tr>
       <td><strong>L4931</strong></td>
@@ -841,7 +841,7 @@
         - Limited current which is not suitable for heavier loads.<br>
         - Power dissipation can get high.
       </td>
-      <td><a href="https://www.adafruit.com/product/2166?srsltid=AfmBOoqWcCuJELxtJVzFxIRpEGNKCCuCQmUOuTcbpZCLRW1pGNdhxgWv5Fo"> Datasheet</a></td>
+      <td><a href="https://www.adafruit.com/product/2166?srsltid=AfmBOoqWcCuJELxtJVzFxIRpEGNKCCuCQmUOuTcbpZCLRW1pGNdhxgWv5Fo"><img src="../Images/Digikey.png" alt="Datasheet Link" width="60" style="vertical-align:middle;"></a></td>
     </tr>    
   </tbody>
 </table>
@@ -894,28 +894,31 @@
       <td><strong>HPP845E031R4</strong></td>
       <td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../Images/HS1.webp" data-desc-position="bottom"><img src="../Images/HS1.webp" width="130"></a></td>
       <td>
-        - Has a heat sink<br>
-        - Is surface mount
+        - Fully calibrated &amp; linearized digital ouput which means we can expect an easy integration vis I2C with no extra calibration needed.<br>
+        - Extremely low current consumption which is suitable for our low-power IoT applications.<br>
+        - Safe for long term production
       </td>
       <td>
-        - Has no external feet for soldering<br>
-        - Will need to learn a new method of soldering to complete the project
+        - Going to need some extra tools to solder onto board.<br>
+        - Limited documentation on how to compnesate for the self-heating.
+        - Fewer software libraries than the SHT21
       </td>
-      <td><a href="https://www.digikey.com/en/products/detail/te-connectivity-measurement-specialties/HPP845E031R4/3945784">Datasheet</a></td>
+      <td><a href="https://www.digikey.com/en/products/detail/te-connectivity-measurement-specialties/HPP845E031R4/3945784"><img src="../Images/Digikey.png" alt="Datasheet Link" width="60" style="vertical-align:middle;"></a></td>
     </tr>
     <tr>
       <td><strong>SHT21-TR</strong></td>
       <td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../Images/HS2.jpg" data-desc-position="bottom"><img src="../Images/HS2.jpg" width="130"></a></td>
       <td>
-        - Has a heat sink<br>
-        - Is surface mount 
+        - Excellent Accuracy. The sensor reads within +/- 2% of the true relative humidity value.<br>
+        - Low power consumption.<br>
+        - Well-documented interface and timing. Widely supported in linraries for arduino, ESP32, and STM32.
       </td>
       <td>
-        - Has no external feet for soldering<br>
-        - Will need to learn a new method of soldering to complete the project<br>
-        - Operates at a lower A
+        - Slightly higher cost than the HPP845E031R4.<br>
+        - Higher active current draw compared to the HPP845E031R4.<br>
+        - Not as physically rugged. Recommends a protective filter membrane for harsh environments.
       </td>
-      <td><a href="https://www.digikey.com/en/products/detail/sensirion-ag/SHT21-TR-0-4KS/5872245"> Datasheet</a></td>
+      <td><a href="https://www.digikey.com/en/products/detail/sensirion-ag/SHT21-TR-0-4KS/5872245"><img src="../Images/Digikey.png" alt="Datasheet Link" width="60" style="vertical-align:middle;"></a></td>
     </tr>    
     <tr>
       <td><strong>ST0248</strong></td>
@@ -928,17 +931,40 @@
         - Is through hole<br>
         - Will take up lots of room on PCB
       </td>
-      <td><a href="https://www.digikey.com/en/products/detail/sunfounder/ST0248/22116817?gclsrc=aw.ds&amp;gad_source=1&amp;gad_campaignid=20243136172&amp;gbraid=0AAAAADrbLljrokQXUJCxtzhlniK662PLm&amp;gclid=CjwKCAjw_-3GBhAYEiwAjh9fUFkM3ipS1jjoTkSoJ8_jWRjEfiZhy1Oncc5SdL8zCaNNATmc9wrYOxoC4T8QAvD_BwE"> Datasheet</a></td>
+      <td><a href="https://www.digikey.com/en/products/detail/sunfounder/ST0248/22116817?gclsrc=aw.ds&amp;gad_source=1&amp;gad_campaignid=20243136172&amp;gbraid=0AAAAADrbLljrokQXUJCxtzhlniK662PLm&amp;gclid=CjwKCAjw_-3GBhAYEiwAjh9fUFkM3ipS1jjoTkSoJ8_jWRjEfiZhy1Oncc5SdL8zCaNNATmc9wrYOxoC4T8QAvD_BwE"><img src="../Images/Digikey.png" alt="Datasheet Link" width="60" style="vertical-align:middle;"></a></td>
     </tr>    
+  </tbody>
+</table>
+
+</details>
+
+<h3>Our selection</h3>
+
+<table>
+  <colgroup>
+    <col style="width:18%">
+    <col style="width:18%">
+    <col style="width:64%">
+  </colgroup>
+  <thead>
     <tr>
-      <td colspan="5" style="text-align:center; font-weight:bold; background:#f0f0f0;">
-        ✅ Our Choice: <u>HPP845E031R4</u> – Surface mount option with heat sink, suitable for long-term use.
+      <th>Component</th>
+      <th>Image</th>
+      <th>Justification</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>HPP845E031R4</strong></td>
+      <td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../Images/HS1.webp" data-desc-position="bottom"><img src="../Images/HS1.webp" width="130"></a></td>
+      <td>
+        Our Choice: <u>ESP32-WROOM</u> – The team selected the ESP32-WROOM because it offers built-in Wi-Fi and Bluetooth, eliminating the need for external communication modules and reducing overall system complexity. Compared to the Raspberry Pi Pico and Arduino Uno R3, it delivers significantly higher processing power and more versatile peripherals, making it better suited for our project’s performance and connectivity requirements. Its balance of cost, features, and low-power capabilities makes it the most efficient choice amongst the three.
       </td>
     </tr>
   </tbody>
 </table>
 
-</details>
+
 
 <details>
 <summary><h2>Motor Driver Selection</h2></summary>
