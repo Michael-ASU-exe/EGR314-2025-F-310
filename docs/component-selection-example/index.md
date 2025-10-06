@@ -68,10 +68,10 @@ title: Component Selection
       </td>
       <td><a href="https://www.sparkfun.com/arduino-uno-r3.html"> Datasheet</a></td>
     </tr>
-    <!-- end of your last comparison row -->
   </tbody>
 </table>
 
+ <!-- The team selection -->
 <h3>Our selection</h3>
 
 <table>
