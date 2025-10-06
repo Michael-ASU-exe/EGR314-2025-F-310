@@ -921,17 +921,19 @@
       <td><a href="https://www.digikey.com/en/products/detail/sensirion-ag/SHT21-TR-0-4KS/5872245"><img src="../Images/Digikey.png" alt="Datasheet Link" width="60" style="vertical-align:middle;"></a></td>
     </tr>    
     <tr>
-      <td><strong>ST0248</strong></td>
-      <td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../Images/HS3.jpg" data-desc-position="bottom"><img src="../Images/HS3.jpg" width="130"></a></td>
+      <td><strong>SHT30-DIS-B2.5KS</strong></td>
+      <td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../Images/SHT30.png" data-desc-position="bottom"><img src="../Images/SHT30.png" width="130"></a></td>
       <td>
-        - Will not need to buy<br>
-        - Simpler soldering footprint
+        - The 30 series for humidity sensors by Sensirion are genreally better in accuracy and comes with a tighter tolerance.<br>
+        - Broader supply voltage can give more flexibility with system voltage rails.<br>
+        - Although more expensive, the SHT30 can come with a metal case, making more rugged and reliable for outdoor use.
       </td>
       <td>
-        - Is through hole<br>
-        - Will take up lots of room on PCB
+        - More complex features require careful implementaion<br>
+        - Could be seen as overkill for what we are trying to accomplish.<br>
+        - Small footprint package can make handling and soldering a bit more challenging.
       </td>
-      <td><a href="https://www.digikey.com/en/products/detail/sunfounder/ST0248/22116817?gclsrc=aw.ds&amp;gad_source=1&amp;gad_campaignid=20243136172&amp;gbraid=0AAAAADrbLljrokQXUJCxtzhlniK662PLm&amp;gclid=CjwKCAjw_-3GBhAYEiwAjh9fUFkM3ipS1jjoTkSoJ8_jWRjEfiZhy1Oncc5SdL8zCaNNATmc9wrYOxoC4T8QAvD_BwE"><img src="../Images/Digikey.png" alt="Datasheet Link" width="60" style="vertical-align:middle;"></a></td>
+      <td><a href="https://www.digikey.com/en/products/detail/sensirion-ag/SHT30-DIS-B2-5KS/5872250?s=N4IgTCBcDaIMoAkAqBmADAWgCIEk4YCEwA6AVgGs4QBdAXyA"><img src="../Images/Digikey.png" alt="Datasheet Link" width="60" style="vertical-align:middle;"></a></td>
     </tr>    
   </tbody>
 </table>
@@ -956,7 +958,7 @@
       <td><strong>HPP845E031R4</strong></td>
       <td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../Images/HS1.webp" data-desc-position="bottom"><img src="../Images/HS1.webp" width="130"></a></td>
       <td>
-        Our Choice: <u>ESP32-WROOM</u> – The team selected the ESP32-WROOM because it offers built-in Wi-Fi and Bluetooth, eliminating the need for external communication modules and reducing overall system complexity. Compared to the Raspberry Pi Pico and Arduino Uno R3, it delivers significantly higher processing power and more versatile peripherals, making it better suited for our project’s performance and connectivity requirements. Its balance of cost, features, and low-power capabilities makes it the most efficient choice amongst the three.
+        Our Choice: <u>HPP845E031R4</u> – We decided to move forward with the HPP845E031R4 because of its balance in performance, simplicity and cost. Like the SHT21, it provides accurate relative humidity and temperature readings, full digital I2C output, and a wide operating range of -40 degrees celsius to 125 degrees celsius. With a current consumption around .014mA, we are able to minimize power draw, which is valuable for embedded systems. While the newer SHT3x sensors can overachieve in all those categories, it comes with a notably higher price. The HPP845E031R4 will deliver the accuracy and reliability we need for our embedded system without overcomplicating the system or inflating project cost.
       </td>
     </tr>
   </tbody>
