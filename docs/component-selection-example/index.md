@@ -35,7 +35,7 @@ title: Component Selection
         - Lower library ecosystem than ARM<br/>
         - Higher power consumption in comparison to other MCUs
       </td>
-      <td><a href="https://www.digikey.com/en/products/detail/espressif-systems/ESP32-DEVKITC-32UE/12091813">Datasheet</a></td>
+      <td><a href="https://www.digikey.com/en/products/detail/espressif-systems/ESP32-DEVKITC-32UE/12091813"><img src="../Images/Digikey.png" alt="Datasheet Link" width="60" style="vertical-align:middle;"></a></td>
     </tr>
     <tr>
       <td><strong>Raspberry Pi Pico</strong></td>
@@ -51,7 +51,8 @@ title: Component Selection
         - No built in WiFi/Bluetooth<br/>
         - Overkill for simple sensor/motor tasks 
       </td>
-      <td><a href="https://www.sparkfun.com/raspberry-pi-5-16gb.html?src=raspberrypi"> Datasheet</a></td>
+      <td><a href="https://www.sparkfun.com/raspberry-pi-5-16gb.html?src=raspberrypi"><img src="../Images/Digikey.png" alt="Datasheet Link" width="60" style="vertical-align:middle;"></a>
+      </td>
     </tr>    
     <tr>
       <td><strong>Arduino Uno - R3</strong></td>
@@ -66,7 +67,8 @@ title: Component Selection
         - No built-in Wi-Fi or Bluetooth<br/>
         - Fewer GPIOs in comparison to the previous options
       </td>
-      <td><a href="https://www.sparkfun.com/arduino-uno-r3.html"> Datasheet</a></td>
+      <td><a href="https://www.sparkfun.com/arduino-uno-r3.html"><img src="../Images/Digikey.png" alt="Datasheet Link" width="60" style="vertical-align:middle;"></a>
+      </td>
     </tr>
   </tbody>
 </table>
