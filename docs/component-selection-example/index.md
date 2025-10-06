@@ -51,7 +51,7 @@ title: Component Selection
         - No built in WiFi/Bluetooth<br/>
         - Overkill for simple sensor/motor tasks 
       </td>
-      <td><a href="https://www.sparkfun.com/raspberry-pi-5-16gb.html?src=raspberrypi"><img src="../Images/Digikey.png" alt="Datasheet Link" width="60" style="vertical-align:middle;"></a>
+      <td><a href="https://www.digikey.com/en/products/detail/raspberry-pi/SC0669/13530918"><img src="../Images/Digikey.png" alt="Datasheet Link" width="60" style="vertical-align:middle;"></a>
       </td>
     </tr>    
     <tr>
