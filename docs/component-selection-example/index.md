@@ -118,19 +118,21 @@ title: Component Selection
       <td><strong>LM2575D2T-3.3R4G</strong></td>
       <td><img src="../Images/P1.webp" width="130"/></td>
       <td>
-        - Have used in the lab<br/>
-        - Is surface mount<br/>
-        - Has a heat sink 
+        - Highly efficient, so less heat dissipation<br/>
+        - Wide input voltage range, ideal when powered from 12V - 40V sources<br/>
+        - 1A output current, which is suitable for powering microcontrollers, sensors, and small motors.<br/>
+        - Integrated switch, protection, and simple external parts. Needs only a diode, inductor, and two capacitors. 
       </td>
       <td>
-        - Harder to solder as all feet are on one side<br/>
-        - We need to use it 
+        - More outpout ripple noise when compared to linear regulators<br/>
+        - Switching EMI noise so how we design the layout on the PCB and decoupling are critical.<br/>
+        - Slightly more complex design 
       </td>
       <td><a href="https://www.digikey.com/en/products/detail/onsemi/LM2575D2T-3-3R4G/1476688">Datasheet</a></td>
     </tr>
     <tr>
-      <td><strong>LF33CV</strong></td>
-      <td><img src="../Images/P2.webp" width="130"/></td>
+      <td><strong>LF33ABDT-TR</strong></td>
+      <td><img src="../Images/LF33ABDT.png" width="130"/></td>
       <td>
         - Don't need to buy the part<br/>
         - Smaller footprint than surface mount
@@ -142,11 +144,12 @@ title: Component Selection
       <td><a href="https://www.digikey.com/en/products/detail/stmicroelectronics/LF33CV/1038546"> Datasheet</a></td>
     </tr>    
     <tr>
-      <td><strong>L4931-3.3</strong></td>
-      <td><img src="../Images/P3.jpg" width="130"/></td>
+      <td><strong>L4931</strong></td>
+      <td><img src="../Images/L4931.png" width="130"/></td>
       <td>
-        - Cheaper than the others<br/>
-        - We have used it in a previous lab
+        - With a .4V dropout voltage, we can regulate with the small headroom.<br/>
+        - Simple design with just one 2.2uF capacitor for stability.<br/>
+        - Low noise output
       </td>
       <td>
         - Is through hole<br/>
@@ -154,13 +157,36 @@ title: Component Selection
       </td>
       <td><a href="https://www.adafruit.com/product/2166?srsltid=AfmBOoqWcCuJELxtJVzFxIRpEGNKCCuCQmUOuTcbpZCLRW1pGNdhxgWv5Fo"> Datasheet</a></td>
     </tr>    
+  </tbody>
+</table>
+
+<h3>Our selection</h3>
+
+<table>
+  <colgroup>
+    <col style="width:18%">
+    <col style="width:18%">
+    <col style="width:64%">
+  </colgroup>
+  <thead>
     <tr>
-      <td colspan="5" style="text-align:center; font-weight:bold; background:#f0f0f0;">
-        ✅ Our Choice: <u>LM2575D2T-3.3R4G</u> – Required part, proven in lab use, and reliable with heat dissipation.
+      <th>Component</th>
+      <th>Image</th>
+      <th>Justification</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>LM2575D2T-3.3R4G</strong></td>
+      <td><img src="../Images/P1.webp" width="130" /></td>
+      <td>
+        Our Choice: <u>LM2575D2T-3.3R4G</u> – Our team decided to go with the LM2575T because efficiency, current capacity and it has the highest input voltage range of the three. Although the LM2575T is slightly more expensive and requires a few additional external components, but performance and lower power cost make it the most cost-effective and reliabe choice for our design.
       </td>
     </tr>
   </tbody>
 </table>
+
+</details>
 
 </details>
 
