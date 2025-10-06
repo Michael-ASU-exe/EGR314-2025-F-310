@@ -118,15 +118,15 @@ title: Component Selection
       <td><strong>LM2575D2T-3.3R4G</strong></td>
       <td><img src="../Images/P1.webp" width="130"/></td>
       <td>
-        - Highly efficient, so less heat dissipation<br/>
-        - Wide input voltage range, ideal when powered from 12V - 40V sources<br/>
+        - Highly efficient, so less heat dissipation.<br/>
+        - Wide input voltage range, ideal when powered from 12V - 40V sources.<br/>
         - 1A output current, which is suitable for powering microcontrollers, sensors, and small motors.<br/>
         - Integrated switch, protection, and simple external parts. Needs only a diode, inductor, and two capacitors. 
       </td>
       <td>
-        - More outpout ripple noise when compared to linear regulators<br/>
+        - More output ripple noise when compared to linear regulators.<br/>
         - Switching EMI noise so how we design the layout on the PCB and decoupling are critical.<br/>
-        - Slightly more complex design 
+        - Slightly more complex design. 
       </td>
       <td><a href="https://www.digikey.com/en/products/detail/onsemi/LM2575D2T-3-3R4G/1476688">Datasheet</a></td>
     </tr>
@@ -134,13 +134,13 @@ title: Component Selection
       <td><strong>LF33ABDT-TR</strong></td>
       <td><img src="../Images/LF33ABDT.png" width="130"/></td>
       <td>
-        - Higher current capability than the L4931<br/>
-        - Low dropout and low noise performance similiar to L4931<br/>
-        - Good line and load regulation<br/>
-        - Stable with just one 2.2 uF capacitor
+        - Higher current capability than the L4931.<br/>
+        - Low dropout and low noise performance similiar to L4931.<br/>
+        - Good line and load regulation.<br/>
+        - Stable with just one 2.2 uF capacitor.
       </td>
       <td>
-        - Its Linear topology makes it inefficient for high input/output differences <br/>
+        - Its Linear topology makes it inefficient for high input/output differences. <br/>
         - Will run hot under high current or a large voltage drop.
       </td>
       <td><a href="https://www.digikey.com/en/products/detail/stmicroelectronics/LF33CV/1038546"> Datasheet</a></td>
@@ -151,12 +151,12 @@ title: Component Selection
       <td>
         - With a .4V dropout voltage, we can regulate with the small headroom.<br/>
         - Simple design with just one 2.2uF capacitor for stability.<br/>
-        - Low noise output
+        - Low noise output.
       </td>
       <td>
-        - Efficiency is low for large voltage drops<br/>
-        - Limited current which is not suitable for heavier loads<br/>
-        - Power dissipation can get high
+        - Efficiency is low for large voltage drops.<br/>
+        - Limited current which is not suitable for heavier loads.<br/>
+        - Power dissipation can get high.
       </td>
       <td><a href="https://www.adafruit.com/product/2166?srsltid=AfmBOoqWcCuJELxtJVzFxIRpEGNKCCuCQmUOuTcbpZCLRW1pGNdhxgWv5Fo"> Datasheet</a></td>
     </tr>    
