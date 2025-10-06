@@ -128,7 +128,8 @@ title: Component Selection
         - Switching EMI noise so how we design the layout on the PCB and decoupling are critical.<br/>
         - Slightly more complex design. 
       </td>
-      <td><a href="https://www.digikey.com/en/products/detail/onsemi/LM2575D2T-3-3R4G/1476688">Datasheet</a></td>
+      <td><a href="https://www.digikey.com/en/products/detail/onsemi/LM2575D2T-3-3R4G/1476688" target="_blank"><img src="../Images/Digikey.png" alt="Datasheet Link" width="30" style="vertical-align:middle;"></a>
+      </td>
     </tr>
     <tr>
       <td><strong>LF33ABDT-TR</strong></td>
@@ -143,7 +144,7 @@ title: Component Selection
         - Its Linear topology makes it inefficient for high input/output differences. <br/>
         - Will run hot under high current or a large voltage drop.
       </td>
-      <td><a href="https://www.digikey.com/en/products/detail/stmicroelectronics/LF33CV/1038546"> Datasheet</a></td>
+      <td><a href="https://www.digikey.com/en/products/detail/stmicroelectronics/LF33ABDT-TR/1038540?s=N4IgTCBcDaIDIDEDMSCCAhAIgFQLTYCUQBdAXyA"> Datasheet</a></td>
     </tr>    
     <tr>
       <td><strong>L4931</strong></td>
