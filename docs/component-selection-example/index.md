@@ -51,7 +51,7 @@ title: Component Selection
         - No built in WiFi/Bluetooth<br/>
         - Overkill for simple sensor/motor tasks 
       </td>
-      <td><a href="https://www.digikey.com/en/products/detail/raspberry-pi/SC0669/13530918"><img src="../Images/Digikey.png" alt="Datasheet Link" width="60" style="vertical-align:middle;"></a>
+      <td><a href="https://www.digikey.com/en/products/detail/raspberry-pi/SC1558/25805572"><img src="../Images/Digikey.png" alt="Datasheet Link" width="60" style="vertical-align:middle;"></a>
       </td>
     </tr>    
     <tr>
@@ -67,7 +67,7 @@ title: Component Selection
         - No built-in Wi-Fi or Bluetooth<br/>
         - Fewer GPIOs in comparison to the previous options
       </td>
-      <td><a href="https://www.sparkfun.com/arduino-uno-r3.html"><img src="../Images/Digikey.png" alt="Datasheet Link" width="60" style="vertical-align:middle;"></a>
+      <td><a href="https://www.digikey.com/en/products/detail/arduino/A000073/3476357"><img src="../Images/Digikey.png" alt="Datasheet Link" width="60" style="vertical-align:middle;"></a>
       </td>
     </tr>
   </tbody>
