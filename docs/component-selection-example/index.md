@@ -134,12 +134,14 @@ title: Component Selection
       <td><strong>LF33ABDT-TR</strong></td>
       <td><img src="../Images/LF33ABDT.png" width="130"/></td>
       <td>
-        - Don't need to buy the part<br/>
-        - Smaller footprint than surface mount
+        - Higher current capability than the L4931<br/>
+        - Low dropout and low noise performance similiar to L4931<br/>
+        - Good line and load regulation<br/>
+        - Stable with just one 2.2 uF capacitor
       </td>
       <td>
-        - Is through hole<br/>
-        - Will be taller
+        - Its Linear topology makes it inefficient for high inout/output differences <br/>
+        - Will run hot under high current or a large voltage drop.
       </td>
       <td><a href="https://www.digikey.com/en/products/detail/stmicroelectronics/LF33CV/1038546"> Datasheet</a></td>
     </tr>    
@@ -152,8 +154,9 @@ title: Component Selection
         - Low noise output
       </td>
       <td>
-        - Is through hole<br/>
-        - Not as efficient as it is linear
+        - Efficiency is low for large voltage drops<br/>
+        - Limited current which is not suitable for heavier loads<br/>
+        - Power dissipation can get high
       </td>
       <td><a href="https://www.adafruit.com/product/2166?srsltid=AfmBOoqWcCuJELxtJVzFxIRpEGNKCCuCQmUOuTcbpZCLRW1pGNdhxgWv5Fo"> Datasheet</a></td>
     </tr>    
@@ -180,7 +183,7 @@ title: Component Selection
       <td><strong>LM2575D2T-3.3R4G</strong></td>
       <td><img src="../Images/P1.webp" width="130" /></td>
       <td>
-        Our Choice: <u>LM2575D2T-3.3R4G</u> – Our team decided to go with the LM2575T because efficiency, current capacity and it has the highest input voltage range of the three. Although the LM2575T is slightly more expensive and requires a few additional external components, but performance and lower power cost make it the most cost-effective and reliabe choice for our design.
+        Our Choice: <u>LM2575D2T-3.3R4G</u> – Our team decided to go with the LM2575T because efficiency, current capacity and it has the highest input voltage range of the three. The LM2575T is slightly more expensive and requires a few additional external components, but performance and lower long-term power cost make it the most cost-effective and reliabe choice for our design.
       </td>
     </tr>
   </tbody>
