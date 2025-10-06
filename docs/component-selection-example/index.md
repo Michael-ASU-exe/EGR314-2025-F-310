@@ -256,8 +256,6 @@ title: Component Selection
   </tbody>
 </table>
 
-</details>
-
 <h3>Our selection</h3>
 
 <table>
