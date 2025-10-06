@@ -140,7 +140,7 @@ title: Component Selection
         - Stable with just one 2.2 uF capacitor
       </td>
       <td>
-        - Its Linear topology makes it inefficient for high inout/output differences <br/>
+        - Its Linear topology makes it inefficient for high input/output differences <br/>
         - Will run hot under high current or a large voltage drop.
       </td>
       <td><a href="https://www.digikey.com/en/products/detail/stmicroelectronics/LF33CV/1038546"> Datasheet</a></td>
