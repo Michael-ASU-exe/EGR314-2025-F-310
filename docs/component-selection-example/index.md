@@ -469,7 +469,7 @@ title: Component Selection
   <tbody>
     <tr>
       <td><strong>324</strong></td>
-      <td><img src="../Images/324.png" width="130" /></td>
+      <td><img src="../Images/324.png" idth="130" /></td>
       <td>
         Our Choice: <u>324</u> –  Our group will go with the 324 motor or better known as the 42mm hybrid high torque stepper motor because of the combination of torque, precision and compatibility for our project. With the 1.8 degree steps, it ensures precise motion control, while its 1.6 kg·cm holding torque delivers sufficient strength for mechanical loads without excessive current draw. Its ability to pair with the DRV8825 motor driver provides us with a simple guide on the wiring and reliability when it comes to perfomance at the 12V. Though slightly more expensive than a smaller hobby stepper motor, its superior torque output and robust construction make it the most cost-effective and capable option for consistent, high-accuracy operation in our system. 
       </td>
@@ -481,3 +481,5 @@ title: Component Selection
 
 </div>
 </div>
+<h2>BOM</h2>
+<img src="../Images/BOM.png"/>
