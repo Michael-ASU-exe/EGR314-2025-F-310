@@ -481,5 +481,18 @@ title: Component Selection
 
 </div>
 </div>
-<h2>BOM</h2>
-<img src="../Images/BOM1.png"/>
+
+## Bill Of Materials
+
+<div style="height:85vh;">
+  <iframe
+    src="/EGR314-2025-F-310/Images/BOM.pdf#view=FitH"
+    width="100%"
+    height="100%"
+    style="border:1px solid #ddd;"
+  ></iframe>
+</div>
+
+<p><a href="/EGR314-2025-F-310/Images/BOM.pdf" target="_blank" rel="noopener">
+  Open full-size PDF in new tab
+</a></p>
