@@ -404,46 +404,74 @@ title: Component Selection
   <tbody>
     <tr>
       <td><strong>324</strong></td>
-      <td><img src="../Images/Mo1.webp" width="130"/></td>
+      <td><img src="../Images/324.png" width="130"/></td>
       <td>
-        - Cheapest of the motors<br/>
-        - has a good data sheet
+        - High torque density for its size.<br/>
+        - 4 x stronger than the MOT-I-81619.<br/>
+        - 1.8 degree step angle.<br/>
+        - Excellent thermal and mechanical stability
       </td>
       <td>
-        Limited torque<br/>
-        At higher RPM, the stepper has resonance issues
+        - Slightly heavier<br/>
+        - Requires a driver with proper current control<br/>
+        - Higher cost than basic geared toy-grade steppers, but still mid-range overall. 
       </td>
-      <td><a href="https://www.digikey.com/en/products/detail/adafruit-industries-llc/324/5022791">Datasheet</a></td>
+      <td><a href="https://www.digikey.com/en/products/detail/adafruit-industries-llc/324/5022791"><img src="../Images/Digikey.png" alt="Datasheet Link" width="60" style="vertical-align:middle;"></a></td>
     </tr>
     <tr>
       <td><strong>MOT-I-81619</strong></td>
       <td><img src="../Images/MOT.png" width="130"/></td>
       <td>
-        Decent documentation<br/>
-        Easier for mechanical integration
+        - Standard NEMA-17 which makes it compatible with most mounts.<br/>
+        - Moderate torque which makes it suitable for light mechanical systems
+        - Low current draw of .33A
+        - Simple 2-phase bipolar wiring
       </td>
       <td>
-        More expensive than the 324<br/>
-        Torque falls off at higher RPMs
+        - Lower torque output than our 324 model<br/>
+        - Inductance may limit speed response and acceleration.<br/>
       </td>
-      <td><a href="https://www.digikey.com/en/products/detail/sparkfun-electronics/09238/5318747?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLljrokQXUJCxtzhlniK662PLm&gclid=CjwKCAjw_-3GBhAYEiwAjh9fUDY4mAaD5cVICg9DJ3dkp2tuUlxmwplDsnTPRYFdyZxFki9ZKPAaPRoC-vIQAvD_BwE"> Datasheet</a></td>
+      <td><a href="https://www.digikey.com/en/products/detail/sparkfun-electronics/09238/5318747?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLljrokQXUJCxtzhlniK662PLm&gclid=CjwKCAjw_-3GBhAYEiwAjh9fUDY4mAaD5cVICg9DJ3dkp2tuUlxmwplDsnTPRYFdyZxFki9ZKPAaPRoC-vIQAvD_BwE"><img src="../Images/Digikey.png" alt="Datasheet Link" width="60" style="vertical-align:middle;"></a></td>
     </tr>    
     <tr>
       <td><strong>918</strong></td>
-      <td><img src="../Images/Mo3.webp" width="130"/></td>
+      <td><img src="../Images/918.webp" width="130"/></td>
       <td>
-        can offer more torque<br/>
-        Good heat displacement  
+        - Very compact and lightweight.<br/>
+        - Ideal for small beginners and small projects.<br/>
+        - Works easily with Arduino Motor Shields or other low-voltage drivers.  
       </td>
       <td>
-        more complex to program<br/>
-        mounting may be more difficult
+        - Very low torque.<br/>
+        - slow speed.<br/>
+        - Geared design reduces efficiency and introduces backlash in precision applications.
       </td>
-      <td><a href="https://www.digikey.com/en/products/detail/adafruit-industries-llc/918/5629415?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLljrokQXUJCxtzhlniK662PLm&gclid=CjwKCAjw_-3GBhAYEiwAjh9fUGxSH1X5xyUS0WGCDu5T2N96eoFQoZ9U3X1nPWaGIcAxK6H59jPM1BoC19wQAvD_BwE"> Datasheet</a></td>
+      <td><a href="https://www.digikey.com/en/products/detail/adafruit-industries-llc/918/5629415?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLljrokQXUJCxtzhlniK662PLm&gclid=CjwKCAjw_-3GBhAYEiwAjh9fUGxSH1X5xyUS0WGCDu5T2N96eoFQoZ9U3X1nPWaGIcAxK6H59jPM1BoC19wQAvD_BwE"><img src="../Images/Digikey.png" alt="Datasheet Link" width="60" style="vertical-align:middle;"></a></td>
     </tr>    
+  </tbody>
+</table>
+
+ <h3>Our selection</h3>
+
+<table>
+  <colgroup>
+    <col style="width:18%">
+    <col style="width:18%">
+    <col style="width:64%">
+  </colgroup>
+  <thead>
     <tr>
-      <td colspan="5" style="text-align:center; font-weight:bold; background:#f0f0f0;">
-        ✅ Our Choice: <u>324</u> – Cheapest option with solid datasheet and sufficient performance for our project.
+      <th>Component</th>
+      <th>Image</th>
+      <th>Justification</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>324</strong></td>
+      <td><img src="../Images/324.png" width="130" /></td>
+      <td>
+        Our Choice: <u>324</u> –  Our group will go with the 324 motor or better known as the 42mm hybrid high torque stepper motor because of the combination of torque, precision and compatibility for our project. With the 1.8 degree steps, it ensures precise motion control, while its 1.6 kg·cm holding torque delivers sufficient strength for mechanical loads without excessive current draw. Its ability to pair with the DRV8825 motor driver provides us with a simple guide on the wiring and reliability when it comes to perfomance at the 12V. Though slightly more expensive than a smaller hobby stepper motor, its superior torque output and robust construction make it the most cost-effective and capable option for consistent, high-accuracy operation in our system. 
       </td>
     </tr>
   </tbody>
