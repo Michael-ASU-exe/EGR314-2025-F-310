@@ -2,7 +2,7 @@
 
 <div style="height:85vh;">
   <iframe
-    src="/EGR314-2025-F-310/Images/Main.pdf#view=FitH"
+    src="/EGR314-2025-F-310/Images/Main1.pdf#view=FitH"
     width="100%"
     height="100%"
     style="border:1px solid #ddd;"
