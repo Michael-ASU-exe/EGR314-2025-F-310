@@ -482,4 +482,4 @@ title: Component Selection
 </div>
 </div>
 <h2>BOM</h2>
-<img src="../Images/BOM.png"/>
+<img src="../Images/BOM1.png"/>
