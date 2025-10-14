@@ -311,7 +311,7 @@ title: Component Selection
         - Well-documented and widely supported in the maker and robotics communites.
       </td>
       <td>
-        - Requires external sense resitors and tuning for current control<br/>
+        - Requires external sense resistors and tuning for current control<br/>
         - Limited to 1/32 microstepping which is less precise than the L6470H.<br/>
         - Needs proper PCB heat dissipation for high current loads.
       </td>
