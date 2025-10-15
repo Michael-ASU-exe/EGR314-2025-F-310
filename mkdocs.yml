@@ -31,9 +31,10 @@ nav:
   - Ideation and Concept Generation: Ideation.md
   - Schematic: Schematic.md
   - Block Diagram: "Team Block Diagram.md"
+  - Component selection example: component-selection-example/index.md
   - Appendix:
       - Appendix: Appendix/index.md
-  - Component selection example: component-selection-example/index.md
+  
 
 
 markdown_extensions:
