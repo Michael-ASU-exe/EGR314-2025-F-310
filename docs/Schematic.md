@@ -9,6 +9,6 @@
   ></iframe>
 </div>
 
-<p><a href="/EGR314-2025-F-310/Images/Main.pdf" target="_blank" rel="noopener">
+<p><a href="/EGR314-2025-F-310/Images/Main1.pdf" target="_blank" rel="noopener">
   Open full-size PDF in new tab
 </a></p>
