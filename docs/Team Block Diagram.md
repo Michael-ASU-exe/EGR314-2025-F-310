@@ -2,5 +2,5 @@
 title: Block Diagram 
 ---
 
-![Team block diagram](Images/TeamBlockDiagram1.png)
+![Team block diagram](Images/EGR310-Block Diagram1.png)
 
