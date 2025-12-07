@@ -20,6 +20,4 @@ Our mission is to create a device that utilizes infrared technology to detect ho
 As a team, we are committed to designing and building a wildfire prevention device within 16 weeks and a budget of $300, utilizing the skills and techniques we will learn from EGR 314.
 ## Our Project
 Our project focuses on reducing the number of wildfires caused by unattended or out-of-control campfires. Using a non-intrusive thermal camera, the system allows an operator to monitor a campsite for any abnormal heat or fire activity. The device is designed to be small and compact so it blends naturally into outdoor environments, and it can pan up to 270 degrees for wide-area coverage. In addition, it includes a humidity sensor to help assess environmental conditions and determine the level of fire risk.
-<p align="center">
-  <img src="images/FinishedProduct.png" alt="Our Project Overview" width="70%">
-</p>
+![Our Project Overview](images/FinishedProduct.png)
