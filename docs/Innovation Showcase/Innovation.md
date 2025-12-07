@@ -1,4 +1,4 @@
 <p align="center">
-  <img src="images/innovation1.png" alt="Our Project Overview" width="70%">
-  <img src="images/innovation2.png" alt="Out>
+  <img src="..Images/innovation1.png" alt="Our Project Overview" width="70%">
+  <img src="..Images/innovation2.png" alt="Out>
 </p>
