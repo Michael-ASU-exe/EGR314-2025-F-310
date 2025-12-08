@@ -566,7 +566,7 @@ title: Component Selection
   
 
 </details>
-## Bill Of Materials
+ Bill Of Materials
 
 <div style="height:85vh;">
   <iframe
@@ -577,6 +577,15 @@ title: Component Selection
   ></iframe>
 </div>
 
-<p><a href="/EGR314-2025-F-310/Images/BOM.pdf" target="_blank" rel="noopener">
-  Open full-size PDF in new tab
-</a></p>
+
+<p>
+  <a href="/EGR314-2025-F-310/Images/BOM.pdf" target="_blank" style="
+    padding: 10px 18px;
+    background:#c62828;
+    color:white;
+    border-radius:6px;
+    text-decoration:none;
+    font-weight:bold;">
+    Download BOM (PDF)
+  </a>
+</p>
