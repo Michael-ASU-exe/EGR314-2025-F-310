@@ -29,7 +29,7 @@ theme:
 nav:
   - Welcome: index.md
   - Ideation and Concept Generation: Ideation.md
-  - Schematic: Schematic.md
+  - Schematic & PCB: Schematic.md
   - Block Diagram: "Team Block Diagram.md"
   - Component selection example: component-selection-example/index.md
   - Innovation Showcase: "Innovation Showcase/index.md"
