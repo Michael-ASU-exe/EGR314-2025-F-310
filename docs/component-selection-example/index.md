@@ -537,13 +537,12 @@ title: Component Selection
       <td>Per Phase</td>
     </tr>
 
- <tr style="background-color:#d9d9d9; font-weight:bold;">
+    <tr style="background-color:#d9d9d9; font-weight:bold;">
       <td>Total Max &amp; Min:</td>
       <td>3.532A</td>
       <td>5.6235A</td>
       <td>-</td>
     </tr>
-
   </tbody>
 </table>
 </details>
