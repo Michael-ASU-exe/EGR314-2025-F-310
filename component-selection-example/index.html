@@ -499,17 +499,6 @@
         
       
       
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Component selection example
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -519,34 +508,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#bill-of-materials" class="md-nav__link">
-    <span class="md-ellipsis">
-      Bill Of Materials
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
       
     </li>
   
@@ -679,23 +640,6 @@
   
     
   
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#bill-of-materials" class="md-nav__link">
-    <span class="md-ellipsis">
-      Bill Of Materials
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
   
 </nav>
                   </div>
@@ -1197,6 +1141,9 @@
 <details>
 <summary><h2>Power Budget</h2></summary>
 
+<!-- Flex container that aligns table (left) and explanation (right) -->
+<div style="display: flex; align-items: flex-start; gap: 24px;">
+
 <table>
   <colgroup>
     <col style="width:18%">
@@ -1260,19 +1207,38 @@
     </tr>
   </tbody>
 </table>
-</details>
-
-</div>
 </div>
 
-<h2 id="bill-of-materials">Bill Of Materials</h2>
+
+ <!-- EXPLANATION (RIGHT SIDE) -->
+  <div style="flex: 1; font-size: 0.95rem;">
+    <h3>Power Budget Summary</h3>
+    <p>
+      The table to the left summarizes the expected electrical load for each major subsystem 
+      in our design. The ESP32 and motor-related components dominate the total power requirements, 
+      with the stepper motor and motor driver responsible for the majority of peak current draw.
+    </p>
+    <p>
+      Using the maximum draw values, the system may require up to <strong>5.62A</strong> in the worst-case scenario. 
+      This ensures our power supply, wiring, PCB traces, and safety margins are sized appropriately.
+    </p>
+    <p>
+      Based on these values, we recommend selecting a power source and voltage regulator capable 
+      of supplying at least <strong>6–7A continuous</strong> to ensure reliability and avoid overheating.
+    </p>
+  </div>
+</details></div>
+
+
+## Bill Of Materials
+
 <div style="height:85vh;">
   <iframe src="/EGR314-2025-F-310/Images/BOM.pdf#view=FitH" width="100%" height="100%" style="border:1px solid #ddd;"></iframe>
 </div>
 
 <p><a href="/EGR314-2025-F-310/Images/BOM.pdf" target="_blank" rel="noopener">
   Open full-size PDF in new tab
-</a></p>
+</a></p></div>
 
 
 
