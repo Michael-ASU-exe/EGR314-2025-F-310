@@ -618,33 +618,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#4-layered-board" class="md-nav__link">
-    <span class="md-ellipsis">
-      4-Layered Board
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#coding-issues" class="md-nav__link">
-    <span class="md-ellipsis">
-      Coding Issues
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#budget-constraints" class="md-nav__link">
-    <span class="md-ellipsis">
-      Budget Constraints
-    </span>
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -752,33 +725,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#4-layered-board" class="md-nav__link">
-    <span class="md-ellipsis">
-      4-Layered Board
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#coding-issues" class="md-nav__link">
-    <span class="md-ellipsis">
-      Coding Issues
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#budget-constraints" class="md-nav__link">
-    <span class="md-ellipsis">
-      Budget Constraints
-    </span>
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -843,19 +789,6 @@
 <p>Finally, an updated version of our project would be an opportunity to think scale and if the project grew from a single Heat Seeker node to a network of many nodes. In that world, the block diagram might show one ESP32 as a gateway connected to Wi-Fi or MQTT, and several remote nodes communicating via ESP-NOW or ESP-Mesh. The communication architecture would need proper addressing, perhaps a topic-like hierarchy, and a clear distinction between commands (e.g., “start scan,” “go to home,” “set motor speed”) and telemetry (sensor readings, temperatures, fault flags). Our current design can be seen as a prototype of that, but Version 2.0 would explicitly design for multiple nodes from the start.</p>
 <p>Another improvement area is debug and test hooks. Right now, the only visibility into the system is print statements over the REPL. With Version 2.0, we could add a dedicated “debug channel” that can stream internal state or error information over ESP-NOW or a secondary UART. We could also introduce compile-time or run-time flags to switch between “demo mode” and “diagnostic mode,” where the communication protocol sends more expansive messages (including raw I²C error codes, DRV8825 fault states, and home switch status). This would make field debugging much easier, especially when the device is deployed on a pole somewhere and serial access isn’t practical.</p>
 <p>Altogether, Version 2.0 of our communication architecture would move from a single, tightly coupled control loop and ad-hoc text messages to a modular, layered, and versioned system: hardware subsystems with clear interfaces, software modules for sensors/motion/comms, a robust on-air protocol with error checking and addressing, and better use of ESP32 peripherals for timing and reliability. These changes would not just make the system more “polished”; they would make it easier to extend, debug, and trust when deployed in real wildfire-prevention scenarios.</p>
-<h2 id="4-layered-board"><strong>4-Layered Board</strong></h2>
-<ul>
-<li>By building our PCB with four layers, we were able to minimize noise to our sensors, as well as allow us to save space and build a more compact board. This also helped us expand our knowledge of PCB stacks, and will hopefully help us in our future PCB-designing endeavors.</li>
-</ul>
-<h2 id="coding-issues"><strong>Coding Issues</strong></h2>
-<ul>
-<li>We had last-minute troubles sending information to our ESP32, and we were unable to fix it in time for the showcase. This was somewhat out of our hands, however if we had more time, we may have been able to swap out the component and get our PCB working as intended.</li>
-</ul>
-<h2 id="budget-constraints"><strong>Budget Constraints</strong></h2>
-<ul>
-<li>We were able to get out thermal camera working, however due to budget constraints, we had to choose a camera that lagged and had limited range.</li>
-<li>If we had a larger budget, we technically could have given a slightly stronger demonstration of our product, although it wasn't necessary.</li>
-</ul>
 
 
 
