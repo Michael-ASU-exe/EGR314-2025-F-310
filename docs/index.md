@@ -21,5 +21,11 @@ As a team, we are committed to designing and building a wildfire prevention devi
 ## Our Project
 Our project focuses on reducing the number of wildfires caused by unattended or out-of-control campfires. Using a non-intrusive thermal camera, the system allows an operator to monitor a campsite for any abnormal heat or fire activity. The device is designed to be small and compact so it blends naturally into outdoor environments, and it can pan up to 270 degrees for wide-area coverage. In addition, it includes a humidity sensor to help assess environmental conditions and determine the level of fire risk.
 
-![Our Project Overview](Images/FinishedProduct.png)
-![Our Project Overview](Images/BackFinishedProduct.png)
+<p style="text-align:center;">
+  <img src="Images/FinishedProduct.png"
+       alt="PCB Front"
+       style="width:45%; max-width:400px; margin-right:10px;">
+  <img src="Images/BackFinishedProduct.png"
+       alt="PCB Back"
+       style="width:45%; max-width:400px;">
+</p>
