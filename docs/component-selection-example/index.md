@@ -551,13 +551,13 @@ title: Component Selection
     <td style="width:45%; vertical-align:top; padding-left:16px;">
       <h3>Power Budget Summary</h3>
       <p>
-      This is where we will put the explanation for the power budget.
+      The power budget was determined based on five key components: The ESP32, Humidity Sensor, Camera, Motor Driver, and Stepper Motor. Using online resources and datasheets, we were able to find both minimum and maximum Amperage values for each of these components. 
       </p>
       <p>
-     more explanation for the power budget
+     The process for determining the final power budget involved looking through the BOM for our project, and finding datasheets for the given components. We also found information from websites that sell the components, as well as user reviews that confirmed the values we were seeing across multiple sites.
       </p>
       <p>
-      Conclusion for the power budget
+      After thorough research was conducted, the final results for our power budget were a *minimum* of **3.532** Amps, and a *maximum* of **5.6235** Amps.
       </p>
 
     </td>
