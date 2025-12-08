@@ -54,16 +54,4 @@ Another improvement area is debug and test hooks. Right now, the only visibility
 
 Altogether, Version 2.0 of our communication architecture would move from a single, tightly coupled control loop and ad-hoc text messages to a modular, layered, and versioned system: hardware subsystems with clear interfaces, software modules for sensors/motion/comms, a robust on-air protocol with error checking and addressing, and better use of ESP32 peripherals for timing and reliability. These changes would not just make the system more “polished”; they would make it easier to extend, debug, and trust when deployed in real wildfire-prevention scenarios.
 
-## <strong>4-Layered Board</strong>
-
-* By building our PCB with four layers, we were able to minimize noise to our sensors, as well as allow us to save space and build a more compact board. This also helped us expand our knowledge of PCB stacks, and will hopefully help us in our future PCB-designing endeavors.
-
-## <strong>Coding Issues</strong>
-
-* We had last-minute troubles sending information to our ESP32, and we were unable to fix it in time for the showcase. This was somewhat out of our hands, however if we had more time, we may have been able to swap out the component and get our PCB working as intended.
-
-## <strong>Budget Constraints</strong>
-
-* We were able to get out thermal camera working, however due to budget constraints, we had to choose a camera that lagged and had limited range.
-* If we had a larger budget, we technically could have given a slightly stronger demonstration of our product, although it wasn't necessary.
 
