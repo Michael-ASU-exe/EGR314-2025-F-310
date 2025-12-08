@@ -17,6 +17,6 @@
     border-radius:6px;
     text-decoration:none;
     font-weight:bold;">
-    Download Poster (PDF)
+    Download Schematic (PDF)
   </a>
 </p>
