@@ -2,10 +2,13 @@
 title: Resources
 ---
 
-![Showcase](../Images/Innovation1.jpg)
-![Showcase](../Images/Innovation2.jpg)
-![Showcase](../Images/Innovation3.jpg)
-![Showcase](../Images/Innovation4.jpg)
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; max-width: 900px; margin: auto;">
+  <img src="../Images/Innovation1.jpg" alt="Innovation 1" style="width:100%; border-radius:6px;">
+  <img src="../Images/Innovation2.jpg" alt="Innovation 2" style="width:100%; border-radius:6px;">
+  <img src="../Images/Innovation3.jpg" alt="Innovation 3" style="width:100%; border-radius:6px;">
+  <img src="../Images/Innovation4.jpg" alt="Innovation 4" style="width:100%; border-radius:6px;">
+</div>
+
 
 ## System Demo Video
 
