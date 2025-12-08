@@ -12,7 +12,7 @@ title: Resources
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
 
   <iframe
-    src="https://youtube.com/shorts/79qVvoakSY0?si=nffzltO5gTASqehJ"
+    src="https://youtube.com/embed/79qVvoakSY0"
     title="Heat Seekers Demo"
     frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
