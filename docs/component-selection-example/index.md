@@ -478,6 +478,35 @@ title: Component Selection
 </table>
 
 </details>
+<details>
+<summary><h2>Power Budget</h2></summary>
+
+<table>
+  <colgroup>
+    <col style="width:18%">
+    <col style="width:18%">
+    <col style="width:28%">
+    <col style="width:28%">
+    <col style="width:8%">
+  </colgroup>
+  <thead>
+    <tr>
+      <th>Component</th>
+      <th>Minimum Draw</th>
+      <th>Maximum Draw</th>
+      <th>When</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>ESP32</strong></td>
+      <td>0.5A</td>
+      <td>1.3A</td>
+      <td>typical (1.3A is worst case scenario)</td>  
+    </tr>
+  </tbody>
+</table>
+
 
 </div>
 </div>
