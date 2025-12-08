@@ -6,8 +6,18 @@ title: Resources
 ![Showcase](../Images/Innovation2.jpg)
 ![Showcase](../Images/Innovation3.jpg)
 ![Showcase](../Images/Innovation4.jpg)
+
 ## System Demo Video
 
-You can watch our demo here:
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
 
-[▶ Watch our Heat Seekers demo on YouTube](https://youtube.com/shorts/79qVvoakSY0?si=d7SHiIt5-ffoXnJ4)
+  <iframe
+    src="https://youtube.com/shorts/79qVvoakSY0?si=nffzltO5gTASqehJ"
+    title="Heat Seekers Demo"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+  </iframe>
+
+</div>
