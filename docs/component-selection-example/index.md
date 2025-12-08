@@ -478,6 +478,7 @@ title: Component Selection
 </table>
 
 </details>
+
 <details>
 <summary><h2>Power Budget</h2></summary>
 
@@ -506,7 +507,7 @@ title: Component Selection
     </tr>
   </tbody>
 </table>
-
+</details>
 
 </div>
 </div>
