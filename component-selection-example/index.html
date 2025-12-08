@@ -1141,91 +1141,90 @@
 <details>
 <summary><h2>Power Budget</h2></summary>
 
-<!-- Flex container that aligns table (left) and explanation (right) -->
-<div style="display: flex; align-items: flex-start; gap: 24px;">
+<!-- Outer layout table: left = power table, right = explanation -->
+<table style="width:100%;">
+  <tbody><tr>
+    <!-- LEFT: Power budget table -->
+    <td style="width:55%; vertical-align:top;">
 
-<table>
-  <colgroup>
-    <col style="width:18%">
-    <col style="width:18%">
-    <col style="width:28%">
-    <col style="width:28%">
-  </colgroup>
-  <thead>
-    <tr>
-      <th>Component</th>
-      <th>Minimum Draw</th>
-      <th>Maximum Draw</th>
-      <th>When</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>ESP32</strong></td>
-      <td>0.5A</td>
-      <td>1.3A</td>
-      <td>typical (1.3A is worst case scenario)</td>  
-    </tr>
-  </tbody>
-  <tbody>
-    <tr>
-      <td><strong>Humidity Sensor</strong></td>
-      <td>0.014mA</td>
-      <td>0.5mA</td>
-      <td>typical</td>
-    </tr>
-  </tbody>
-  <tbody>
-    <tr>
-      <td><strong>Camera</strong></td>
-      <td>18mA</td>
-      <td>23mA</td>
-      <td>typical</td>
-    </tr>
-  </tbody>
-  <tbody>
-    <tr>
-      <td><strong>Motor Driver</strong></td>
-      <td>1.5A</td>
-      <td>2.5A</td>
-      <td>typical</td>
-    </tr>
-  </tbody>
-  <tbody>
-    <tr>
-      <td><strong>Stepper Motor</strong></td>
-      <td>1.5A</td>
-      <td>1.8A</td>
-      <td>Per Phase</td>
-    </tr>
+      <table>
+        <colgroup>
+          <col style="width:18%">
+          <col style="width:18%">
+          <col style="width:28%">
+          <col style="width:28%">
+        </colgroup>
+        <thead>
+          <tr>
+            <th>Component</th>
+            <th>Minimum Draw</th>
+            <th>Maximum Draw</th>
+            <th>When</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>ESP32</strong></td>
+            <td>0.5A</td>
+            <td>1.3A</td>
+            <td>typical (1.3A is worst case scenario)
+            </td>  
+          </tr>
+          <tr>
+            <td><strong>Humidity Sensor</strong></td>
+            <td>0.014mA</td>
+            <td>0.5mA</td>
+            <td>typical</td>
+          </tr>
+          <tr>
+            <td><strong>Camera</strong></td>
+            <td>18mA</td>
+            <td>23mA</td>
+            <td>typical</td>
+          </tr>
+          <tr>
+            <td><strong>Motor Driver</strong></td>
+            <td>1.5A</td>
+            <td>2.5A</td>
+             <td>typical</td>
+          </tr>
+          <tr>
+            <td><strong>Stepper Motor</strong></td>
+            <td>1.5A</td>
+            <td>1.8A</td>
+            <td>Per Phase</td>
+          </tr>
+          <tr style="background-color:#d9d9d9; font-weight:bold;">
+            <td>Total Max &amp; Min:</td>
+            <td>3.532A</td>
+            <td>5.6235A</td>
+            <td>-</td>
+          </tr>
+        </tbody>
+      </table>
 
-    <tr style="background-color:#d9d9d9; font-weight:bold;">
-      <td>Total Max &amp; Min:</td>
-      <td>3.532A</td>
-      <td>5.6235A</td>
-      <td>-</td>
-    </tr>
-  </tbody>
-</table>
-</div>
+    </td>  
 
 
  <!-- EXPLANATION (RIGHT SIDE) -->
-  <div style="flex: 1; font-size: 0.95rem;">
-    <h3>Power Budget Summary</h3>
-    <p>
+    <td style="width:45%; vertical-align:top; padding-left:16px;">
+      <h3>Power Budget Summary</h3>
+      <p>
       This is where we will put the explanation for the power budget.
-    </p>
-    <p>
+      </p>
+      <p>
      more explanation for the power budget
-    </p>
-    <p>
+      </p>
+      <p>
       Conclusion for the power budget
-    </p>
-  </div>
-</details></div>
+      </p>
+
+    </td>
+  </tr>
+</tbody></table>
 
 
+</details>
 ## Bill Of Materials
 
 <div style="height:85vh;">
@@ -1234,7 +1233,7 @@
 
 <p><a href="/EGR314-2025-F-310/Images/BOM.pdf" target="_blank" rel="noopener">
   Open full-size PDF in new tab
-</a></p></div>
+</a></p></div></div>
 
 
 
