@@ -5,7 +5,7 @@ title: Innovation Showcase
 ![Showcase](../Images/poster-1.png)
 
 <p>
-  <a href="Images/poster.pdf" target="_blank" style="
+  <a href="../Images/poster.pdf" target="_blank" style="
     padding: 10px 18px;
     background:#c62828;
     color:white;
