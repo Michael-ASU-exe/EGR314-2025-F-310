@@ -482,6 +482,9 @@ title: Component Selection
 <details>
 <summary><h2>Power Budget</h2></summary>
 
+<!-- Flex container that aligns table (left) and explanation (right) -->
+<div style="display: flex; align-items: flex-start; gap: 24px;">
+
 <table>
   <colgroup>
     <col style="width:18%">
@@ -545,11 +548,29 @@ title: Component Selection
     </tr>
   </tbody>
 </table>
+</div>
+
+
+ <!-- EXPLANATION (RIGHT SIDE) -->
+  <div style="flex: 1; font-size: 0.95rem;">
+    <h3>Power Budget Summary</h3>
+    <p>
+      The table to the left summarizes the expected electrical load for each major subsystem 
+      in our design. The ESP32 and motor-related components dominate the total power requirements, 
+      with the stepper motor and motor driver responsible for the majority of peak current draw.
+    </p>
+    <p>
+      Using the maximum draw values, the system may require up to <strong>5.62A</strong> in the worst-case scenario. 
+      This ensures our power supply, wiring, PCB traces, and safety margins are sized appropriately.
+    </p>
+    <p>
+      Based on these values, we recommend selecting a power source and voltage regulator capable 
+      of supplying at least <strong>6–7A continuous</strong> to ensure reliability and avoid overheating.
+    </p>
+  </div>
+</div>
+
 </details>
-
-</div>
-</div>
-
 ## Bill Of Materials
 
 <div style="height:85vh;">
