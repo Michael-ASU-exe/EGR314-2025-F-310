@@ -37,3 +37,15 @@ title: Resources
    Download Full Project Code (ZIP)
 </a>
 
+<a href="EGR_314_CAD.zip" 
+   download 
+   style="
+   display:inline-block;
+   padding:10px 18px;
+   background:#c62828;
+   color:white;
+   border-radius:6px;
+   text-decoration:none;
+   font-weight:bold;">
+   Download CAD Project (ZIP)
+</a>
