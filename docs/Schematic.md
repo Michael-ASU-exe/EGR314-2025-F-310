@@ -9,6 +9,14 @@
   ></iframe>
 </div>
 
-<p><a href="/EGR314-2025-F-310/Images/Main1.pdf" target="_blank" rel="noopener">
-  Open full-size PDF in new tab
-</a></p>
+<p>
+  <a href="/EGR314-2025-F-310/Images/Main1.pdf" target="_blank" style="
+    padding: 10px 18px;
+    background:#c62828;
+    color:white;
+    border-radius:6px;
+    text-decoration:none;
+    font-weight:bold;">
+    Download Poster (PDF)
+  </a>
+</p>
