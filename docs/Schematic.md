@@ -1,3 +1,10 @@
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; max-width: 900px; margin: auto;">
+  <img src="../Images/FirstLayer.png" alt="First Layer" style="width:100%; border-radius:6px;">
+  <img src="../Images/SecondLayer.png" alt="Second Layer" style="width:100%; border-radius:6px;">
+  <img src="../Images/ThirdLayer.png" alt="Third Layer" style="width:100%; border-radius:6px;">
+  <img src="../Images/FourthLayer.png" alt="Fourth Layer" style="width:100%; border-radius:6px;">
+</div>
+
 ## Schematic
 
 <div style="height:85vh;">
