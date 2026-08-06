@@ -1,0 +1,46 @@
+# Builds the MkDocs site and publishes it to the gh-pages branch of THIS repo.
+# Mirrors the working workflow in Suo-Teaching-Team/egr-304-spring2026.
+#
+# derived from
+#<https://github.com/marketplace/actions/mkdocs-action>
+#<https://gist.github.com/liflovs/f2a950dadcca25a0dbdfe10f53f5c838>
+
+name: mkdocs-build
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+# peaceiris/actions-gh-pages pushes a commit to the gh-pages branch using
+# GITHUB_TOKEN, so the token needs write access to repository contents.
+permissions:
+  contents: write
+
+# Two quick pushes to main would otherwise race each other onto gh-pages.
+concurrency:
+  group: mkdocs-build
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: build mkdocs
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build
+        uses: Tiryoh/actions-mkdocs@v0
+        with:
+          mkdocs_version: 'latest'
+          requirements: 'requirements.txt'
+          configfile: 'mkdocs.yml'
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site
+          allow_empty_commit: true
